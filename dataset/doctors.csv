@@ -1,0 +1,31 @@
+doctor_id	department	hospital_branch	hours_available	hours_booked
+DR001	Oncology	Branch A	32	8
+DR002	Pediatrics	Branch B	38	16
+DR003	Orthopedics	Branch A	31	6
+DR004	Pediatrics	Branch A	35	8
+DR005	Pediatrics	Branch A	44	16
+DR006	Oncology	Branch B	44	17
+DR007	General Medicine	Branch A	38	17
+DR008	General Medicine	Branch B	22	14
+DR009	General Medicine	Branch A	31	11
+DR010	Emergency	Branch A	49	13
+DR011	Cardiology	Branch A	24	18
+DR012	Emergency	Branch B	21	18
+DR013	Orthopedics	Branch A	41	12
+DR014	Emergency	Branch A	26	19
+DR015	Orthopedics	Branch B	32	16
+DR016	Orthopedics	Branch B	44	13
+DR017	Cardiology	Branch B	34	12
+DR018	Oncology	Branch A	41	6
+DR019	Cardiology	Branch B	22	11
+DR020	General Medicine	Branch A	47	6
+DR021	General Medicine	Branch B	40	17
+DR022	Emergency	Branch B	39	16
+DR023	Orthopedics	Branch B	24	15
+DR024	Pediatrics	Branch A	43	6
+DR025	Pediatrics	Branch A	27	19
+DR026	Orthopedics	Branch A	41	8
+DR027	Cardiology	Branch A	20	5
+DR028	Oncology	Branch A	27	19
+DR029	Cardiology	Branch A	43	9
+DR030	Orthopedics	Branch A	37	10

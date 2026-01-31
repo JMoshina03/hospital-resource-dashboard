@@ -1,0 +1,501 @@
+bed_id	department	hospital_branch	date	is_occupied
+B001	Cardiology	Branch A	25-01-2026	TRUE
+B002	Oncology	Branch A	10-01-2026	FALSE
+B003	Oncology	Branch B	08-01-2026	FALSE
+B004	Cardiology	Branch B	10-01-2026	FALSE
+B005	Oncology	Branch A	04-01-2026	TRUE
+B006	Pediatrics	Branch B	02-01-2026	TRUE
+B007	Oncology	Branch A	08-01-2026	TRUE
+B008	Emergency	Branch A	14-01-2026	FALSE
+B009	Pediatrics	Branch B	21-01-2026	FALSE
+B010	Orthopedics	Branch A	26-01-2026	TRUE
+B011	Oncology	Branch A	20-01-2026	TRUE
+B012	Oncology	Branch A	15-01-2026	TRUE
+B013	Emergency	Branch A	03-01-2026	FALSE
+B014	Emergency	Branch A	04-01-2026	TRUE
+B015	General Medicine	Branch A	27-01-2026	FALSE
+B016	Cardiology	Branch A	29-01-2026	FALSE
+B017	Cardiology	Branch B	16-01-2026	FALSE
+B018	Cardiology	Branch B	20-01-2026	TRUE
+B019	Emergency	Branch A	18-01-2026	FALSE
+B020	Cardiology	Branch B	01-01-2026	TRUE
+B021	Cardiology	Branch A	21-01-2026	TRUE
+B022	Orthopedics	Branch A	17-01-2026	TRUE
+B023	Cardiology	Branch A	19-01-2026	TRUE
+B024	Oncology	Branch A	08-01-2026	FALSE
+B025	General Medicine	Branch B	23-01-2026	FALSE
+B026	Emergency	Branch B	05-01-2026	FALSE
+B027	Pediatrics	Branch B	10-01-2026	FALSE
+B028	General Medicine	Branch B	14-01-2026	TRUE
+B029	Orthopedics	Branch A	01-01-2026	TRUE
+B030	Emergency	Branch B	20-01-2026	TRUE
+B031	Emergency	Branch A	12-01-2026	TRUE
+B032	Oncology	Branch A	08-01-2026	FALSE
+B033	General Medicine	Branch B	19-01-2026	TRUE
+B034	General Medicine	Branch A	14-01-2026	FALSE
+B035	Cardiology	Branch B	06-01-2026	TRUE
+B036	Oncology	Branch B	22-01-2026	TRUE
+B037	Cardiology	Branch B	22-01-2026	TRUE
+B038	Cardiology	Branch B	03-01-2026	TRUE
+B039	Emergency	Branch B	17-01-2026	FALSE
+B040	General Medicine	Branch A	12-01-2026	FALSE
+B041	Cardiology	Branch B	03-01-2026	FALSE
+B042	Orthopedics	Branch B	17-01-2026	FALSE
+B043	Orthopedics	Branch A	18-01-2026	TRUE
+B044	General Medicine	Branch B	17-01-2026	TRUE
+B045	Orthopedics	Branch B	26-01-2026	FALSE
+B046	Emergency	Branch A	17-01-2026	FALSE
+B047	Oncology	Branch A	18-01-2026	TRUE
+B048	Pediatrics	Branch B	01-01-2026	TRUE
+B049	Cardiology	Branch A	13-01-2026	FALSE
+B050	Pediatrics	Branch B	28-01-2026	FALSE
+B051	Oncology	Branch A	16-01-2026	FALSE
+B052	Oncology	Branch B	02-01-2026	TRUE
+B053	Emergency	Branch B	21-01-2026	FALSE
+B054	Orthopedics	Branch B	13-01-2026	FALSE
+B055	Orthopedics	Branch A	12-01-2026	FALSE
+B056	Oncology	Branch B	09-01-2026	FALSE
+B057	Emergency	Branch A	24-01-2026	FALSE
+B058	Emergency	Branch B	01-01-2026	TRUE
+B059	General Medicine	Branch B	12-01-2026	FALSE
+B060	Cardiology	Branch B	26-01-2026	TRUE
+B061	Orthopedics	Branch B	03-01-2026	FALSE
+B062	Oncology	Branch B	12-01-2026	FALSE
+B063	General Medicine	Branch A	08-01-2026	FALSE
+B064	Pediatrics	Branch A	24-01-2026	TRUE
+B065	Orthopedics	Branch A	22-01-2026	TRUE
+B066	Cardiology	Branch B	21-01-2026	TRUE
+B067	Emergency	Branch B	04-01-2026	FALSE
+B068	Oncology	Branch A	25-01-2026	FALSE
+B069	Orthopedics	Branch B	19-01-2026	TRUE
+B070	Pediatrics	Branch B	24-01-2026	TRUE
+B071	Cardiology	Branch B	25-01-2026	FALSE
+B072	Cardiology	Branch A	11-01-2026	TRUE
+B073	General Medicine	Branch A	05-01-2026	FALSE
+B074	Orthopedics	Branch A	02-01-2026	TRUE
+B075	Pediatrics	Branch A	12-01-2026	TRUE
+B076	Cardiology	Branch A	18-01-2026	TRUE
+B077	Oncology	Branch B	11-01-2026	FALSE
+B078	Cardiology	Branch B	27-01-2026	FALSE
+B079	Pediatrics	Branch B	21-01-2026	TRUE
+B080	Emergency	Branch B	06-01-2026	FALSE
+B081	Emergency	Branch A	27-01-2026	FALSE
+B082	General Medicine	Branch A	25-01-2026	FALSE
+B083	Orthopedics	Branch B	22-01-2026	FALSE
+B084	Pediatrics	Branch A	15-01-2026	TRUE
+B085	General Medicine	Branch B	23-01-2026	FALSE
+B086	Cardiology	Branch B	16-01-2026	FALSE
+B087	Cardiology	Branch B	21-01-2026	TRUE
+B088	Emergency	Branch B	06-01-2026	FALSE
+B089	General Medicine	Branch A	26-01-2026	FALSE
+B090	Emergency	Branch B	05-01-2026	FALSE
+B091	Oncology	Branch A	03-01-2026	TRUE
+B092	Emergency	Branch B	23-01-2026	TRUE
+B093	Oncology	Branch B	25-01-2026	FALSE
+B094	Cardiology	Branch B	15-01-2026	FALSE
+B095	General Medicine	Branch B	02-01-2026	TRUE
+B096	Oncology	Branch A	10-01-2026	TRUE
+B097	General Medicine	Branch B	07-01-2026	TRUE
+B098	General Medicine	Branch A	02-01-2026	FALSE
+B099	Oncology	Branch B	26-01-2026	FALSE
+B100	Orthopedics	Branch B	07-01-2026	TRUE
+B101	Emergency	Branch B	29-01-2026	FALSE
+B102	Oncology	Branch A	02-01-2026	FALSE
+B103	Cardiology	Branch B	11-01-2026	FALSE
+B104	General Medicine	Branch B	30-01-2026	FALSE
+B105	Pediatrics	Branch B	10-01-2026	FALSE
+B106	Oncology	Branch B	17-01-2026	FALSE
+B107	Emergency	Branch B	13-01-2026	FALSE
+B108	General Medicine	Branch A	27-01-2026	TRUE
+B109	Orthopedics	Branch A	18-01-2026	TRUE
+B110	Cardiology	Branch B	16-01-2026	TRUE
+B111	Orthopedics	Branch B	09-01-2026	TRUE
+B112	Pediatrics	Branch A	02-01-2026	TRUE
+B113	Oncology	Branch B	25-01-2026	TRUE
+B114	General Medicine	Branch A	21-01-2026	TRUE
+B115	Oncology	Branch B	07-01-2026	TRUE
+B116	Emergency	Branch B	10-01-2026	TRUE
+B117	Oncology	Branch A	12-01-2026	FALSE
+B118	Cardiology	Branch B	28-01-2026	FALSE
+B119	Pediatrics	Branch A	25-01-2026	TRUE
+B120	Orthopedics	Branch A	02-01-2026	FALSE
+B121	Pediatrics	Branch A	28-01-2026	FALSE
+B122	General Medicine	Branch B	21-01-2026	TRUE
+B123	Oncology	Branch A	11-01-2026	TRUE
+B124	General Medicine	Branch A	09-01-2026	TRUE
+B125	Orthopedics	Branch B	04-01-2026	FALSE
+B126	General Medicine	Branch B	26-01-2026	FALSE
+B127	Emergency	Branch B	12-01-2026	TRUE
+B128	Pediatrics	Branch B	14-01-2026	FALSE
+B129	Orthopedics	Branch B	29-01-2026	FALSE
+B130	Orthopedics	Branch B	13-01-2026	FALSE
+B131	Orthopedics	Branch A	24-01-2026	TRUE
+B132	Cardiology	Branch B	15-01-2026	FALSE
+B133	Pediatrics	Branch A	29-01-2026	FALSE
+B134	General Medicine	Branch B	13-01-2026	FALSE
+B135	Orthopedics	Branch A	11-01-2026	FALSE
+B136	Pediatrics	Branch A	06-01-2026	FALSE
+B137	Orthopedics	Branch B	16-01-2026	FALSE
+B138	Emergency	Branch B	23-01-2026	FALSE
+B139	Emergency	Branch A	16-01-2026	TRUE
+B140	Emergency	Branch B	12-01-2026	TRUE
+B141	Oncology	Branch B	30-01-2026	FALSE
+B142	Orthopedics	Branch A	26-01-2026	TRUE
+B143	Oncology	Branch A	17-01-2026	FALSE
+B144	Pediatrics	Branch A	09-01-2026	FALSE
+B145	Oncology	Branch B	26-01-2026	FALSE
+B146	Pediatrics	Branch B	03-01-2026	TRUE
+B147	Pediatrics	Branch B	24-01-2026	FALSE
+B148	Pediatrics	Branch B	14-01-2026	FALSE
+B149	General Medicine	Branch A	03-01-2026	TRUE
+B150	Oncology	Branch B	14-01-2026	TRUE
+B151	General Medicine	Branch A	20-01-2026	FALSE
+B152	Orthopedics	Branch B	27-01-2026	TRUE
+B153	Oncology	Branch B	06-01-2026	TRUE
+B154	Orthopedics	Branch A	18-01-2026	FALSE
+B155	Orthopedics	Branch B	10-01-2026	FALSE
+B156	Pediatrics	Branch B	11-01-2026	FALSE
+B157	Oncology	Branch A	04-01-2026	TRUE
+B158	Orthopedics	Branch B	03-01-2026	TRUE
+B159	Emergency	Branch A	11-01-2026	TRUE
+B160	Orthopedics	Branch A	22-01-2026	FALSE
+B161	Emergency	Branch A	10-01-2026	TRUE
+B162	Oncology	Branch A	10-01-2026	TRUE
+B163	General Medicine	Branch B	15-01-2026	FALSE
+B164	Oncology	Branch B	20-01-2026	FALSE
+B165	General Medicine	Branch B	23-01-2026	FALSE
+B166	General Medicine	Branch A	14-01-2026	TRUE
+B167	Oncology	Branch B	06-01-2026	FALSE
+B168	Orthopedics	Branch B	23-01-2026	TRUE
+B169	Cardiology	Branch B	15-01-2026	TRUE
+B170	Orthopedics	Branch B	12-01-2026	FALSE
+B171	Orthopedics	Branch A	15-01-2026	FALSE
+B172	Pediatrics	Branch A	02-01-2026	FALSE
+B173	Pediatrics	Branch B	24-01-2026	FALSE
+B174	Orthopedics	Branch A	28-01-2026	FALSE
+B175	Emergency	Branch B	30-01-2026	TRUE
+B176	General Medicine	Branch B	12-01-2026	TRUE
+B177	Pediatrics	Branch B	20-01-2026	TRUE
+B178	Orthopedics	Branch A	14-01-2026	FALSE
+B179	Cardiology	Branch B	09-01-2026	TRUE
+B180	Emergency	Branch A	21-01-2026	FALSE
+B181	Oncology	Branch A	26-01-2026	FALSE
+B182	Orthopedics	Branch B	02-01-2026	TRUE
+B183	Orthopedics	Branch A	03-01-2026	TRUE
+B184	General Medicine	Branch A	22-01-2026	FALSE
+B185	Emergency	Branch B	21-01-2026	TRUE
+B186	Pediatrics	Branch A	13-01-2026	FALSE
+B187	Pediatrics	Branch A	12-01-2026	TRUE
+B188	Pediatrics	Branch B	17-01-2026	TRUE
+B189	Oncology	Branch B	26-01-2026	TRUE
+B190	Emergency	Branch A	24-01-2026	TRUE
+B191	Emergency	Branch B	22-01-2026	TRUE
+B192	Pediatrics	Branch B	06-01-2026	FALSE
+B193	Pediatrics	Branch A	01-01-2026	TRUE
+B194	General Medicine	Branch A	05-01-2026	TRUE
+B195	Cardiology	Branch B	28-01-2026	TRUE
+B196	Cardiology	Branch A	20-01-2026	FALSE
+B197	Orthopedics	Branch B	22-01-2026	FALSE
+B198	Orthopedics	Branch B	26-01-2026	FALSE
+B199	Emergency	Branch A	15-01-2026	FALSE
+B200	Emergency	Branch A	02-01-2026	FALSE
+B201	Oncology	Branch B	05-01-2026	TRUE
+B202	Oncology	Branch B	03-01-2026	TRUE
+B203	Cardiology	Branch B	08-01-2026	TRUE
+B204	Orthopedics	Branch B	25-01-2026	FALSE
+B205	Cardiology	Branch A	21-01-2026	FALSE
+B206	Cardiology	Branch B	12-01-2026	TRUE
+B207	Orthopedics	Branch A	12-01-2026	FALSE
+B208	Oncology	Branch A	13-01-2026	FALSE
+B209	General Medicine	Branch B	19-01-2026	FALSE
+B210	General Medicine	Branch A	02-01-2026	TRUE
+B211	General Medicine	Branch A	20-01-2026	TRUE
+B212	Orthopedics	Branch B	05-01-2026	FALSE
+B213	Pediatrics	Branch A	22-01-2026	FALSE
+B214	Pediatrics	Branch A	15-01-2026	FALSE
+B215	Pediatrics	Branch B	12-01-2026	FALSE
+B216	Emergency	Branch B	12-01-2026	TRUE
+B217	Oncology	Branch B	15-01-2026	FALSE
+B218	Oncology	Branch B	25-01-2026	TRUE
+B219	Emergency	Branch B	03-01-2026	TRUE
+B220	Cardiology	Branch B	19-01-2026	TRUE
+B221	General Medicine	Branch B	05-01-2026	FALSE
+B222	Pediatrics	Branch A	17-01-2026	TRUE
+B223	General Medicine	Branch A	12-01-2026	TRUE
+B224	Pediatrics	Branch B	13-01-2026	FALSE
+B225	General Medicine	Branch A	11-01-2026	FALSE
+B226	Cardiology	Branch A	21-01-2026	FALSE
+B227	General Medicine	Branch B	09-01-2026	TRUE
+B228	General Medicine	Branch A	08-01-2026	FALSE
+B229	Orthopedics	Branch B	04-01-2026	TRUE
+B230	General Medicine	Branch A	01-01-2026	TRUE
+B231	Orthopedics	Branch B	24-01-2026	FALSE
+B232	Oncology	Branch A	06-01-2026	TRUE
+B233	Emergency	Branch A	16-01-2026	TRUE
+B234	General Medicine	Branch A	17-01-2026	TRUE
+B235	Oncology	Branch B	13-01-2026	TRUE
+B236	Orthopedics	Branch A	30-01-2026	FALSE
+B237	General Medicine	Branch A	18-01-2026	TRUE
+B238	General Medicine	Branch B	04-01-2026	FALSE
+B239	Cardiology	Branch B	09-01-2026	TRUE
+B240	Oncology	Branch A	25-01-2026	TRUE
+B241	Pediatrics	Branch A	09-01-2026	FALSE
+B242	Pediatrics	Branch A	23-01-2026	TRUE
+B243	Cardiology	Branch A	15-01-2026	TRUE
+B244	Orthopedics	Branch B	07-01-2026	TRUE
+B245	Pediatrics	Branch A	20-01-2026	TRUE
+B246	Pediatrics	Branch A	10-01-2026	TRUE
+B247	Emergency	Branch B	23-01-2026	TRUE
+B248	Oncology	Branch A	30-01-2026	FALSE
+B249	Orthopedics	Branch A	16-01-2026	FALSE
+B250	General Medicine	Branch A	07-01-2026	FALSE
+B251	Oncology	Branch B	04-01-2026	TRUE
+B252	Orthopedics	Branch B	05-01-2026	TRUE
+B253	Pediatrics	Branch A	28-01-2026	TRUE
+B254	Emergency	Branch A	03-01-2026	FALSE
+B255	Oncology	Branch B	15-01-2026	TRUE
+B256	Pediatrics	Branch A	06-01-2026	FALSE
+B257	Orthopedics	Branch A	29-01-2026	TRUE
+B258	Oncology	Branch B	23-01-2026	TRUE
+B259	General Medicine	Branch B	15-01-2026	TRUE
+B260	Oncology	Branch B	03-01-2026	FALSE
+B261	Pediatrics	Branch A	26-01-2026	TRUE
+B262	Oncology	Branch A	22-01-2026	FALSE
+B263	General Medicine	Branch A	28-01-2026	TRUE
+B264	Emergency	Branch A	11-01-2026	TRUE
+B265	Emergency	Branch B	22-01-2026	FALSE
+B266	Pediatrics	Branch A	12-01-2026	TRUE
+B267	Orthopedics	Branch A	23-01-2026	TRUE
+B268	Pediatrics	Branch B	03-01-2026	TRUE
+B269	Emergency	Branch B	18-01-2026	TRUE
+B270	Cardiology	Branch A	18-01-2026	FALSE
+B271	Cardiology	Branch B	10-01-2026	FALSE
+B272	Oncology	Branch B	29-01-2026	TRUE
+B273	General Medicine	Branch A	10-01-2026	TRUE
+B274	Oncology	Branch A	28-01-2026	FALSE
+B275	Cardiology	Branch A	06-01-2026	TRUE
+B276	Emergency	Branch A	23-01-2026	FALSE
+B277	Oncology	Branch B	23-01-2026	TRUE
+B278	Pediatrics	Branch B	30-01-2026	FALSE
+B279	General Medicine	Branch A	23-01-2026	FALSE
+B280	Pediatrics	Branch A	21-01-2026	FALSE
+B281	General Medicine	Branch B	06-01-2026	FALSE
+B282	Emergency	Branch A	26-01-2026	TRUE
+B283	Oncology	Branch A	12-01-2026	TRUE
+B284	General Medicine	Branch A	17-01-2026	FALSE
+B285	Pediatrics	Branch A	08-01-2026	FALSE
+B286	Oncology	Branch B	04-01-2026	FALSE
+B287	Oncology	Branch A	07-01-2026	FALSE
+B288	Pediatrics	Branch B	26-01-2026	TRUE
+B289	Cardiology	Branch A	05-01-2026	FALSE
+B290	General Medicine	Branch A	08-01-2026	FALSE
+B291	Pediatrics	Branch B	26-01-2026	FALSE
+B292	Emergency	Branch A	16-01-2026	FALSE
+B293	Orthopedics	Branch B	01-01-2026	FALSE
+B294	Pediatrics	Branch A	12-01-2026	FALSE
+B295	Oncology	Branch A	18-01-2026	FALSE
+B296	Oncology	Branch A	19-01-2026	TRUE
+B297	Pediatrics	Branch A	12-01-2026	FALSE
+B298	Orthopedics	Branch A	15-01-2026	FALSE
+B299	Pediatrics	Branch B	26-01-2026	FALSE
+B300	Orthopedics	Branch B	18-01-2026	TRUE
+B301	Orthopedics	Branch A	05-01-2026	TRUE
+B302	Emergency	Branch A	20-01-2026	TRUE
+B303	General Medicine	Branch B	29-01-2026	FALSE
+B304	Oncology	Branch B	03-01-2026	FALSE
+B305	Oncology	Branch A	03-01-2026	FALSE
+B306	Orthopedics	Branch A	10-01-2026	TRUE
+B307	Oncology	Branch B	13-01-2026	FALSE
+B308	Cardiology	Branch A	23-01-2026	TRUE
+B309	Orthopedics	Branch B	24-01-2026	TRUE
+B310	Oncology	Branch A	16-01-2026	TRUE
+B311	Cardiology	Branch B	17-01-2026	TRUE
+B312	Emergency	Branch B	14-01-2026	TRUE
+B313	Oncology	Branch A	25-01-2026	FALSE
+B314	Cardiology	Branch B	14-01-2026	FALSE
+B315	Pediatrics	Branch A	27-01-2026	TRUE
+B316	General Medicine	Branch A	19-01-2026	FALSE
+B317	Pediatrics	Branch A	03-01-2026	FALSE
+B318	Cardiology	Branch A	05-01-2026	TRUE
+B319	Orthopedics	Branch B	11-01-2026	TRUE
+B320	Orthopedics	Branch A	21-01-2026	FALSE
+B321	Oncology	Branch A	03-01-2026	FALSE
+B322	Pediatrics	Branch A	15-01-2026	FALSE
+B323	Orthopedics	Branch A	15-01-2026	FALSE
+B324	Orthopedics	Branch B	22-01-2026	TRUE
+B325	Pediatrics	Branch A	17-01-2026	FALSE
+B326	Emergency	Branch B	12-01-2026	TRUE
+B327	Orthopedics	Branch B	05-01-2026	TRUE
+B328	General Medicine	Branch B	29-01-2026	FALSE
+B329	Cardiology	Branch A	27-01-2026	FALSE
+B330	Oncology	Branch A	25-01-2026	FALSE
+B331	Orthopedics	Branch A	18-01-2026	TRUE
+B332	General Medicine	Branch A	21-01-2026	TRUE
+B333	General Medicine	Branch B	19-01-2026	TRUE
+B334	Orthopedics	Branch B	06-01-2026	TRUE
+B335	Emergency	Branch A	25-01-2026	FALSE
+B336	Cardiology	Branch A	05-01-2026	TRUE
+B337	Oncology	Branch A	14-01-2026	TRUE
+B338	Orthopedics	Branch A	17-01-2026	FALSE
+B339	Oncology	Branch A	30-01-2026	TRUE
+B340	Pediatrics	Branch A	28-01-2026	TRUE
+B341	General Medicine	Branch A	02-01-2026	FALSE
+B342	General Medicine	Branch B	27-01-2026	TRUE
+B343	Orthopedics	Branch B	04-01-2026	TRUE
+B344	Orthopedics	Branch B	17-01-2026	TRUE
+B345	Pediatrics	Branch B	05-01-2026	TRUE
+B346	Emergency	Branch A	10-01-2026	FALSE
+B347	Orthopedics	Branch A	06-01-2026	TRUE
+B348	General Medicine	Branch A	06-01-2026	FALSE
+B349	Oncology	Branch A	11-01-2026	TRUE
+B350	Cardiology	Branch A	30-01-2026	FALSE
+B351	Oncology	Branch B	23-01-2026	FALSE
+B352	Emergency	Branch A	08-01-2026	FALSE
+B353	Cardiology	Branch B	12-01-2026	TRUE
+B354	Oncology	Branch A	17-01-2026	TRUE
+B355	Oncology	Branch B	29-01-2026	TRUE
+B356	Pediatrics	Branch A	10-01-2026	FALSE
+B357	Emergency	Branch B	28-01-2026	TRUE
+B358	General Medicine	Branch A	03-01-2026	TRUE
+B359	Pediatrics	Branch A	09-01-2026	TRUE
+B360	Cardiology	Branch A	07-01-2026	TRUE
+B361	General Medicine	Branch A	21-01-2026	FALSE
+B362	Pediatrics	Branch B	18-01-2026	FALSE
+B363	Emergency	Branch A	09-01-2026	TRUE
+B364	Orthopedics	Branch B	05-01-2026	TRUE
+B365	Orthopedics	Branch A	21-01-2026	TRUE
+B366	Cardiology	Branch B	10-01-2026	FALSE
+B367	Orthopedics	Branch A	20-01-2026	TRUE
+B368	Pediatrics	Branch A	18-01-2026	FALSE
+B369	Cardiology	Branch B	03-01-2026	FALSE
+B370	General Medicine	Branch A	17-01-2026	TRUE
+B371	Emergency	Branch A	21-01-2026	TRUE
+B372	Cardiology	Branch B	06-01-2026	TRUE
+B373	General Medicine	Branch A	19-01-2026	FALSE
+B374	Cardiology	Branch B	19-01-2026	FALSE
+B375	Oncology	Branch A	05-01-2026	TRUE
+B376	Oncology	Branch B	06-01-2026	FALSE
+B377	Cardiology	Branch B	22-01-2026	TRUE
+B378	Orthopedics	Branch B	20-01-2026	TRUE
+B379	Oncology	Branch B	24-01-2026	FALSE
+B380	Emergency	Branch A	29-01-2026	FALSE
+B381	General Medicine	Branch A	20-01-2026	FALSE
+B382	Pediatrics	Branch B	11-01-2026	FALSE
+B383	Oncology	Branch A	27-01-2026	TRUE
+B384	Cardiology	Branch A	30-01-2026	TRUE
+B385	Orthopedics	Branch A	19-01-2026	TRUE
+B386	Pediatrics	Branch B	02-01-2026	FALSE
+B387	General Medicine	Branch A	27-01-2026	TRUE
+B388	General Medicine	Branch A	28-01-2026	FALSE
+B389	Oncology	Branch B	01-01-2026	FALSE
+B390	General Medicine	Branch A	03-01-2026	FALSE
+B391	General Medicine	Branch B	02-01-2026	TRUE
+B392	Orthopedics	Branch B	21-01-2026	FALSE
+B393	Orthopedics	Branch B	25-01-2026	FALSE
+B394	Orthopedics	Branch A	19-01-2026	FALSE
+B395	Cardiology	Branch A	09-01-2026	FALSE
+B396	General Medicine	Branch B	21-01-2026	FALSE
+B397	General Medicine	Branch B	07-01-2026	FALSE
+B398	General Medicine	Branch B	25-01-2026	FALSE
+B399	Emergency	Branch B	19-01-2026	FALSE
+B400	Orthopedics	Branch B	14-01-2026	FALSE
+B401	Pediatrics	Branch B	20-01-2026	FALSE
+B402	Oncology	Branch A	21-01-2026	FALSE
+B403	Pediatrics	Branch B	01-01-2026	FALSE
+B404	Cardiology	Branch B	16-01-2026	TRUE
+B405	Cardiology	Branch B	29-01-2026	TRUE
+B406	General Medicine	Branch A	21-01-2026	FALSE
+B407	Pediatrics	Branch A	18-01-2026	FALSE
+B408	General Medicine	Branch A	10-01-2026	FALSE
+B409	Emergency	Branch A	21-01-2026	TRUE
+B410	Cardiology	Branch B	10-01-2026	TRUE
+B411	Cardiology	Branch A	16-01-2026	TRUE
+B412	Pediatrics	Branch B	08-01-2026	FALSE
+B413	Cardiology	Branch B	26-01-2026	FALSE
+B414	Emergency	Branch B	26-01-2026	FALSE
+B415	Emergency	Branch B	22-01-2026	FALSE
+B416	Emergency	Branch B	13-01-2026	TRUE
+B417	Oncology	Branch B	10-01-2026	FALSE
+B418	Emergency	Branch A	15-01-2026	TRUE
+B419	Emergency	Branch A	03-01-2026	TRUE
+B420	Oncology	Branch A	23-01-2026	FALSE
+B421	General Medicine	Branch A	02-01-2026	TRUE
+B422	Orthopedics	Branch A	06-01-2026	TRUE
+B423	Cardiology	Branch B	15-01-2026	TRUE
+B424	Emergency	Branch A	14-01-2026	TRUE
+B425	Cardiology	Branch A	16-01-2026	FALSE
+B426	Pediatrics	Branch A	15-01-2026	FALSE
+B427	Cardiology	Branch B	07-01-2026	TRUE
+B428	General Medicine	Branch B	11-01-2026	FALSE
+B429	Oncology	Branch B	20-01-2026	TRUE
+B430	Cardiology	Branch A	05-01-2026	FALSE
+B431	Cardiology	Branch A	11-01-2026	FALSE
+B432	Cardiology	Branch A	28-01-2026	FALSE
+B433	Orthopedics	Branch A	23-01-2026	FALSE
+B434	Orthopedics	Branch A	11-01-2026	FALSE
+B435	Pediatrics	Branch B	24-01-2026	TRUE
+B436	Oncology	Branch A	28-01-2026	FALSE
+B437	Cardiology	Branch B	12-01-2026	TRUE
+B438	Cardiology	Branch A	13-01-2026	TRUE
+B439	Cardiology	Branch B	05-01-2026	FALSE
+B440	Cardiology	Branch B	25-01-2026	TRUE
+B441	Orthopedics	Branch B	12-01-2026	FALSE
+B442	General Medicine	Branch B	17-01-2026	TRUE
+B443	General Medicine	Branch A	18-01-2026	TRUE
+B444	Pediatrics	Branch A	04-01-2026	FALSE
+B445	Emergency	Branch A	11-01-2026	FALSE
+B446	Oncology	Branch B	08-01-2026	FALSE
+B447	General Medicine	Branch A	15-01-2026	FALSE
+B448	Cardiology	Branch A	04-01-2026	TRUE
+B449	General Medicine	Branch A	09-01-2026	FALSE
+B450	Pediatrics	Branch A	15-01-2026	TRUE
+B451	Emergency	Branch B	08-01-2026	TRUE
+B452	General Medicine	Branch B	05-01-2026	TRUE
+B453	Pediatrics	Branch A	04-01-2026	TRUE
+B454	Orthopedics	Branch A	02-01-2026	TRUE
+B455	Emergency	Branch A	10-01-2026	TRUE
+B456	Pediatrics	Branch B	13-01-2026	FALSE
+B457	General Medicine	Branch B	28-01-2026	TRUE
+B458	Orthopedics	Branch B	20-01-2026	TRUE
+B459	Pediatrics	Branch A	14-01-2026	TRUE
+B460	Pediatrics	Branch B	08-01-2026	FALSE
+B461	General Medicine	Branch B	28-01-2026	FALSE
+B462	Emergency	Branch B	29-01-2026	TRUE
+B463	Orthopedics	Branch B	06-01-2026	FALSE
+B464	Cardiology	Branch B	27-01-2026	TRUE
+B465	Oncology	Branch A	11-01-2026	FALSE
+B466	Emergency	Branch A	30-01-2026	TRUE
+B467	Orthopedics	Branch A	19-01-2026	FALSE
+B468	Pediatrics	Branch A	24-01-2026	FALSE
+B469	Orthopedics	Branch B	11-01-2026	FALSE
+B470	Oncology	Branch A	07-01-2026	TRUE
+B471	General Medicine	Branch A	25-01-2026	TRUE
+B472	Oncology	Branch A	06-01-2026	TRUE
+B473	Cardiology	Branch B	16-01-2026	FALSE
+B474	Cardiology	Branch A	17-01-2026	FALSE
+B475	Oncology	Branch B	15-01-2026	TRUE
+B476	Emergency	Branch B	16-01-2026	FALSE
+B477	Emergency	Branch B	29-01-2026	TRUE
+B478	Pediatrics	Branch A	10-01-2026	TRUE
+B479	Cardiology	Branch B	16-01-2026	TRUE
+B480	Pediatrics	Branch A	01-01-2026	TRUE
+B481	Cardiology	Branch A	03-01-2026	FALSE
+B482	Oncology	Branch A	13-01-2026	FALSE
+B483	Emergency	Branch B	17-01-2026	FALSE
+B484	Emergency	Branch B	15-01-2026	TRUE
+B485	Oncology	Branch A	08-01-2026	FALSE
+B486	Pediatrics	Branch B	07-01-2026	TRUE
+B487	Pediatrics	Branch B	19-01-2026	TRUE
+B488	Orthopedics	Branch B	12-01-2026	TRUE
+B489	Cardiology	Branch A	02-01-2026	TRUE
+B490	Pediatrics	Branch B	02-01-2026	TRUE
+B491	Oncology	Branch B	10-01-2026	TRUE
+B492	Pediatrics	Branch A	16-01-2026	FALSE
+B493	Emergency	Branch B	20-01-2026	FALSE
+B494	Cardiology	Branch A	29-01-2026	FALSE
+B495	General Medicine	Branch B	27-01-2026	FALSE
+B496	Orthopedics	Branch B	21-01-2026	TRUE
+B497	Cardiology	Branch B	22-01-2026	TRUE
+B498	Emergency	Branch B	16-01-2026	FALSE
+B499	Emergency	Branch B	10-01-2026	FALSE
+B500	Emergency	Branch B	18-01-2026	FALSE

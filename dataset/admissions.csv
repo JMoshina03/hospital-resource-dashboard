@@ -1,0 +1,1001 @@
+admission_id	patient_id	hospital_branch	department	admission_date	discharge_date	case_type	outcome	icu_required	readmission_flag
+1	260	Branch A	General Medicine	24-12-2025	24-12-2025	Emergency	Deceased	FALSE	FALSE
+2	990	Branch A	Orthopedics	29-03-2025	26-05-2025	Emergency	Transferred	TRUE	FALSE
+3	966	Branch B	Pediatrics	12-02-2025	28-12-2025	Scheduled	Deceased	FALSE	TRUE
+4	366	Branch A	Orthopedics	20-06-2025	20-06-2025	Scheduled	Recovered	FALSE	TRUE
+5	758	Branch B	Emergency	05-06-2025	16-06-2025	Scheduled	Deceased	FALSE	FALSE
+6	787	Branch A	General Medicine	25-05-2025	25-05-2025	Emergency	Recovered	FALSE	TRUE
+7	544	Branch A	Orthopedics	12-04-2025	12-04-2025	Emergency	Deceased	TRUE	FALSE
+8	649	Branch A	Oncology	24-03-2025	24-03-2025	Emergency	Recovered	FALSE	FALSE
+9	524	Branch A	General Medicine	12-01-2026	12-01-2026	Scheduled	Deceased	FALSE	TRUE
+10	907	Branch A	Cardiology	06-11-2025	06-11-2025	Scheduled	Recovered	FALSE	TRUE
+11	814	Branch A	Orthopedics	16-03-2025	01-12-2025	Emergency	Deceased	TRUE	TRUE
+12	887	Branch A	General Medicine	29-11-2025	29-11-2025	Emergency	Deceased	TRUE	TRUE
+13	16	Branch A	Orthopedics	04-09-2025	04-09-2025	Scheduled	Transferred	FALSE	FALSE
+14	129	Branch B	General Medicine	16-02-2025	12-09-2025	Emergency	Transferred	FALSE	TRUE
+15	575	Branch B	Oncology	15-02-2025	04-04-2025	Scheduled	Recovered	FALSE	TRUE
+16	109	Branch A	Cardiology	19-03-2025	27-09-2025	Scheduled	Deceased	FALSE	FALSE
+17	887	Branch A	Cardiology	22-05-2025	18-01-2026	Emergency	Recovered	FALSE	FALSE
+18	533	Branch B	Emergency	30-05-2025	05-07-2025	Scheduled	Transferred	FALSE	FALSE
+19	670	Branch A	General Medicine	16-10-2025	24-01-2026	Emergency	Recovered	TRUE	FALSE
+20	269	Branch A	Orthopedics	05-12-2025	05-12-2025	Scheduled	Recovered	FALSE	TRUE
+21	162	Branch B	Cardiology	13-02-2025	19-06-2025	Scheduled	Transferred	FALSE	TRUE
+22	260	Branch A	Cardiology	14-11-2025	14-11-2025	Emergency	Deceased	FALSE	FALSE
+23	924	Branch A	Pediatrics	12-05-2025	03-11-2025	Scheduled	Recovered	FALSE	FALSE
+24	102	Branch B	Pediatrics	29-12-2025	29-12-2025	Emergency	Transferred	FALSE	TRUE
+25	506	Branch A	Cardiology	25-01-2026	25-01-2026	Emergency	Deceased	FALSE	TRUE
+26	735	Branch A	General Medicine	06-11-2025	06-11-2025	Scheduled	Transferred	TRUE	TRUE
+27	571	Branch B	Emergency	02-09-2025	03-12-2025	Emergency	Recovered	TRUE	TRUE
+28	247	Branch A	Cardiology	23-05-2025	23-05-2025	Emergency	Deceased	TRUE	TRUE
+29	640	Branch B	Oncology	17-09-2025	17-09-2025	Emergency	Deceased	TRUE	FALSE
+30	795	Branch A	Orthopedics	28-11-2025	28-11-2025	Emergency	Transferred	TRUE	FALSE
+31	837	Branch A	Emergency	22-06-2025	06-12-2025	Emergency	Transferred	TRUE	FALSE
+32	537	Branch B	Oncology	03-02-2025	08-06-2025	Emergency	Transferred	FALSE	FALSE
+33	131	Branch B	Emergency	22-04-2025	22-04-2025	Scheduled	Deceased	FALSE	TRUE
+34	353	Branch A	Oncology	23-01-2026	23-01-2026	Emergency	Deceased	FALSE	FALSE
+35	196	Branch B	Orthopedics	04-09-2025	04-09-2025	Scheduled	Recovered	FALSE	TRUE
+36	793	Branch B	Orthopedics	24-07-2025	11-01-2026	Scheduled	Deceased	FALSE	TRUE
+37	916	Branch A	Pediatrics	22-06-2025	21-11-2025	Emergency	Recovered	FALSE	TRUE
+38	930	Branch A	General Medicine	20-04-2025	27-11-2025	Scheduled	Transferred	TRUE	TRUE
+39	666	Branch A	Oncology	21-05-2025	21-05-2025	Scheduled	Transferred	FALSE	TRUE
+40	382	Branch B	Pediatrics	22-07-2025	10-01-2026	Emergency	Deceased	TRUE	TRUE
+41	645	Branch B	Oncology	24-03-2025	17-06-2025	Emergency	Transferred	TRUE	TRUE
+42	227	Branch B	Pediatrics	19-03-2025	22-11-2025	Emergency	Transferred	FALSE	FALSE
+43	701	Branch B	Orthopedics	13-08-2025	13-08-2025	Scheduled	Deceased	FALSE	TRUE
+44	476	Branch A	Emergency	21-03-2025	30-04-2025	Scheduled	Recovered	FALSE	FALSE
+45	477	Branch B	Pediatrics	02-08-2025	28-09-2025	Emergency	Deceased	FALSE	FALSE
+46	265	Branch A	Oncology	26-07-2025	23-10-2025	Emergency	Recovered	FALSE	TRUE
+47	372	Branch B	Oncology	06-12-2025	30-12-2025	Scheduled	Deceased	FALSE	TRUE
+48	486	Branch A	General Medicine	15-06-2025	14-09-2025	Scheduled	Deceased	FALSE	FALSE
+49	434	Branch A	Orthopedics	22-02-2025	22-06-2025	Scheduled	Transferred	TRUE	FALSE
+50	646	Branch A	Oncology	23-09-2025	23-09-2025	Scheduled	Deceased	FALSE	FALSE
+51	211	Branch B	Cardiology	01-11-2025	26-11-2025	Emergency	Deceased	FALSE	FALSE
+52	572	Branch A	Emergency	04-04-2025	11-09-2025	Scheduled	Recovered	TRUE	TRUE
+53	940	Branch A	Pediatrics	12-08-2025	22-12-2025	Scheduled	Transferred	FALSE	TRUE
+54	377	Branch B	General Medicine	12-03-2025	09-10-2025	Scheduled	Recovered	FALSE	TRUE
+55	395	Branch A	Emergency	09-11-2025	09-11-2025	Scheduled	Recovered	TRUE	FALSE
+56	450	Branch B	Orthopedics	30-06-2025	28-09-2025	Emergency	Transferred	FALSE	TRUE
+57	943	Branch B	General Medicine	18-12-2025	18-12-2025	Emergency	Transferred	FALSE	FALSE
+58	364	Branch A	Pediatrics	13-12-2025	13-12-2025	Scheduled	Transferred	FALSE	TRUE
+59	876	Branch A	Pediatrics	04-08-2025	04-08-2025	Scheduled	Deceased	FALSE	FALSE
+60	457	Branch B	Cardiology	22-11-2025	22-11-2025	Emergency	Transferred	FALSE	TRUE
+61	725	Branch A	Orthopedics	09-05-2025	09-01-2026	Emergency	Transferred	FALSE	TRUE
+62	728	Branch B	General Medicine	26-01-2026	26-01-2026	Scheduled	Transferred	TRUE	FALSE
+63	226	Branch B	General Medicine	07-03-2025	23-04-2025	Scheduled	Recovered	FALSE	FALSE
+64	982	Branch B	Oncology	23-02-2025	18-07-2025	Emergency	Recovered	FALSE	FALSE
+65	131	Branch A	Cardiology	04-01-2026	04-01-2026	Emergency	Deceased	TRUE	FALSE
+66	588	Branch B	Cardiology	27-05-2025	21-01-2026	Emergency	Recovered	TRUE	FALSE
+67	476	Branch A	General Medicine	28-06-2025	11-10-2025	Emergency	Deceased	FALSE	TRUE
+68	798	Branch A	General Medicine	12-03-2025	27-06-2025	Emergency	Recovered	TRUE	FALSE
+69	986	Branch A	Emergency	30-05-2025	05-01-2026	Emergency	Transferred	FALSE	TRUE
+70	277	Branch A	Emergency	23-03-2025	24-08-2025	Scheduled	Recovered	FALSE	TRUE
+71	156	Branch B	Emergency	13-08-2025	08-11-2025	Emergency	Deceased	TRUE	TRUE
+72	760	Branch A	Cardiology	22-06-2025	22-06-2025	Emergency	Recovered	FALSE	TRUE
+73	218	Branch B	Oncology	20-09-2025	20-09-2025	Emergency	Transferred	FALSE	TRUE
+74	190	Branch B	Pediatrics	22-12-2025	22-12-2025	Emergency	Deceased	TRUE	FALSE
+75	417	Branch A	Emergency	05-08-2025	05-08-2025	Scheduled	Transferred	TRUE	FALSE
+76	981	Branch B	Oncology	24-04-2025	09-06-2025	Scheduled	Transferred	TRUE	TRUE
+77	675	Branch B	Orthopedics	08-08-2025	08-08-2025	Emergency	Deceased	TRUE	TRUE
+78	692	Branch A	Emergency	31-07-2025	31-07-2025	Scheduled	Transferred	FALSE	FALSE
+79	546	Branch B	Pediatrics	18-05-2025	25-08-2025	Scheduled	Transferred	TRUE	FALSE
+80	41	Branch B	Orthopedics	09-01-2026	09-01-2026	Scheduled	Recovered	TRUE	TRUE
+81	307	Branch B	Orthopedics	16-06-2025	16-06-2025	Scheduled	Transferred	TRUE	FALSE
+82	943	Branch B	Pediatrics	25-01-2026	25-01-2026	Scheduled	Transferred	TRUE	FALSE
+83	338	Branch A	Emergency	15-01-2026	15-01-2026	Scheduled	Transferred	TRUE	FALSE
+84	314	Branch B	Cardiology	28-12-2025	28-12-2025	Emergency	Transferred	FALSE	TRUE
+85	75	Branch B	Pediatrics	08-03-2025	30-08-2025	Emergency	Deceased	TRUE	FALSE
+86	953	Branch B	Pediatrics	08-12-2025	08-12-2025	Emergency	Recovered	FALSE	TRUE
+87	279	Branch B	Pediatrics	22-12-2025	22-12-2025	Emergency	Transferred	TRUE	TRUE
+88	176	Branch A	Orthopedics	28-04-2025	23-10-2025	Emergency	Transferred	TRUE	TRUE
+89	896	Branch B	Oncology	31-10-2025	31-10-2025	Scheduled	Deceased	TRUE	TRUE
+90	662	Branch A	Cardiology	05-06-2025	15-12-2025	Emergency	Transferred	TRUE	TRUE
+91	273	Branch B	Emergency	24-04-2025	13-10-2025	Emergency	Deceased	TRUE	FALSE
+92	837	Branch A	Emergency	24-09-2025	17-12-2025	Scheduled	Recovered	TRUE	TRUE
+93	620	Branch A	Oncology	13-08-2025	14-09-2025	Scheduled	Recovered	TRUE	TRUE
+94	651	Branch A	Pediatrics	18-06-2025	18-06-2025	Emergency	Transferred	TRUE	TRUE
+95	862	Branch A	Cardiology	24-12-2025	24-12-2025	Scheduled	Transferred	FALSE	FALSE
+96	783	Branch A	Emergency	18-01-2026	18-01-2026	Scheduled	Transferred	TRUE	FALSE
+97	859	Branch B	General Medicine	12-11-2025	12-11-2025	Scheduled	Deceased	FALSE	FALSE
+98	931	Branch B	Emergency	23-05-2025	23-05-2025	Scheduled	Transferred	TRUE	FALSE
+99	289	Branch B	Pediatrics	16-01-2026	16-01-2026	Emergency	Transferred	FALSE	FALSE
+100	724	Branch A	General Medicine	16-07-2025	12-09-2025	Scheduled	Recovered	TRUE	FALSE
+101	893	Branch B	Oncology	28-02-2025	23-01-2026	Emergency	Transferred	TRUE	FALSE
+102	272	Branch A	Cardiology	28-05-2025	06-10-2025	Emergency	Recovered	TRUE	TRUE
+103	930	Branch A	Oncology	16-02-2025	03-04-2025	Scheduled	Transferred	FALSE	TRUE
+104	66	Branch B	Oncology	11-07-2025	11-07-2025	Scheduled	Recovered	FALSE	FALSE
+105	483	Branch B	Cardiology	24-08-2025	19-12-2025	Scheduled	Transferred	FALSE	TRUE
+106	936	Branch A	Cardiology	17-06-2025	08-12-2025	Emergency	Recovered	FALSE	TRUE
+107	248	Branch A	Emergency	05-03-2025	02-06-2025	Scheduled	Deceased	TRUE	FALSE
+108	156	Branch B	Emergency	19-05-2025	29-01-2026	Scheduled	Recovered	TRUE	TRUE
+109	47	Branch B	Cardiology	17-11-2025	17-11-2025	Scheduled	Recovered	TRUE	TRUE
+110	935	Branch B	General Medicine	11-07-2025	11-07-2025	Scheduled	Recovered	FALSE	FALSE
+111	454	Branch B	Orthopedics	19-05-2025	09-11-2025	Scheduled	Transferred	TRUE	TRUE
+112	201	Branch A	Emergency	01-01-2026	01-01-2026	Emergency	Transferred	FALSE	FALSE
+113	660	Branch B	Orthopedics	13-10-2025	09-11-2025	Scheduled	Transferred	FALSE	FALSE
+114	124	Branch B	General Medicine	21-08-2025	27-08-2025	Scheduled	Deceased	FALSE	TRUE
+115	1	Branch B	Cardiology	26-12-2025	26-12-2025	Scheduled	Deceased	FALSE	TRUE
+116	968	Branch A	General Medicine	22-09-2025	22-09-2025	Emergency	Recovered	FALSE	TRUE
+117	759	Branch A	Emergency	14-04-2025	14-04-2025	Scheduled	Deceased	TRUE	FALSE
+118	855	Branch A	Oncology	15-06-2025	24-09-2025	Emergency	Recovered	FALSE	FALSE
+119	640	Branch A	Cardiology	12-04-2025	12-04-2025	Emergency	Recovered	FALSE	FALSE
+120	191	Branch B	Pediatrics	06-06-2025	28-12-2025	Scheduled	Recovered	TRUE	TRUE
+121	579	Branch A	Orthopedics	14-11-2025	14-11-2025	Scheduled	Deceased	FALSE	TRUE
+122	516	Branch B	General Medicine	02-11-2025	02-11-2025	Scheduled	Transferred	FALSE	FALSE
+123	442	Branch B	Cardiology	14-06-2025	29-06-2025	Emergency	Deceased	TRUE	TRUE
+124	921	Branch B	General Medicine	26-11-2025	26-11-2025	Emergency	Recovered	TRUE	TRUE
+125	815	Branch B	Cardiology	07-09-2025	27-01-2026	Emergency	Recovered	TRUE	FALSE
+126	806	Branch A	Emergency	25-11-2025	25-11-2025	Emergency	Deceased	FALSE	FALSE
+127	143	Branch A	Emergency	23-08-2025	31-08-2025	Emergency	Recovered	TRUE	TRUE
+128	191	Branch A	Emergency	04-08-2025	05-10-2025	Emergency	Recovered	TRUE	FALSE
+129	533	Branch B	General Medicine	23-05-2025	29-09-2025	Scheduled	Deceased	TRUE	TRUE
+130	227	Branch B	Pediatrics	11-04-2025	04-06-2025	Scheduled	Deceased	FALSE	FALSE
+131	313	Branch B	Emergency	18-10-2025	18-10-2025	Emergency	Deceased	TRUE	FALSE
+132	629	Branch B	Cardiology	10-10-2025	09-11-2025	Scheduled	Recovered	FALSE	FALSE
+133	949	Branch B	Emergency	18-03-2025	15-04-2025	Scheduled	Recovered	FALSE	TRUE
+134	302	Branch A	Oncology	24-02-2025	15-08-2025	Emergency	Transferred	TRUE	TRUE
+135	654	Branch B	Emergency	28-03-2025	08-05-2025	Emergency	Transferred	FALSE	FALSE
+136	996	Branch A	General Medicine	19-04-2025	03-12-2025	Scheduled	Deceased	FALSE	FALSE
+137	460	Branch B	Pediatrics	18-12-2025	18-12-2025	Emergency	Transferred	TRUE	FALSE
+138	401	Branch B	Oncology	22-04-2025	22-04-2025	Emergency	Recovered	FALSE	TRUE
+139	551	Branch A	General Medicine	14-01-2026	14-01-2026	Scheduled	Transferred	TRUE	FALSE
+140	393	Branch A	General Medicine	04-09-2025	04-09-2025	Emergency	Recovered	FALSE	FALSE
+141	867	Branch B	General Medicine	02-12-2025	02-12-2025	Scheduled	Deceased	FALSE	FALSE
+142	764	Branch B	Cardiology	04-03-2025	24-07-2025	Scheduled	Deceased	TRUE	FALSE
+143	845	Branch B	General Medicine	16-08-2025	17-10-2025	Scheduled	Recovered	TRUE	TRUE
+144	207	Branch B	Cardiology	14-08-2025	14-08-2025	Scheduled	Transferred	FALSE	TRUE
+145	210	Branch A	General Medicine	02-12-2025	02-12-2025	Scheduled	Deceased	FALSE	FALSE
+146	115	Branch B	Orthopedics	27-09-2025	27-09-2025	Emergency	Deceased	TRUE	TRUE
+147	737	Branch A	Oncology	28-10-2025	28-10-2025	Emergency	Transferred	FALSE	TRUE
+148	646	Branch B	Orthopedics	08-06-2025	27-11-2025	Emergency	Transferred	FALSE	TRUE
+149	251	Branch A	General Medicine	10-11-2025	23-11-2025	Emergency	Recovered	FALSE	FALSE
+150	219	Branch A	Oncology	05-02-2025	03-01-2026	Scheduled	Transferred	FALSE	TRUE
+151	407	Branch B	Oncology	14-01-2026	14-01-2026	Scheduled	Transferred	TRUE	TRUE
+152	443	Branch A	Pediatrics	30-03-2025	17-04-2025	Emergency	Transferred	TRUE	TRUE
+153	603	Branch B	Orthopedics	15-01-2026	15-01-2026	Scheduled	Recovered	TRUE	FALSE
+154	354	Branch A	Pediatrics	01-11-2025	02-11-2025	Emergency	Recovered	TRUE	FALSE
+155	888	Branch B	Oncology	16-06-2025	05-10-2025	Emergency	Deceased	TRUE	TRUE
+156	558	Branch A	Cardiology	25-12-2025	25-12-2025	Emergency	Recovered	TRUE	TRUE
+157	550	Branch B	Oncology	24-07-2025	24-07-2025	Scheduled	Deceased	FALSE	FALSE
+158	142	Branch B	Pediatrics	29-03-2025	09-11-2025	Scheduled	Transferred	TRUE	FALSE
+159	612	Branch A	Orthopedics	30-06-2025	05-11-2025	Scheduled	Deceased	FALSE	TRUE
+160	501	Branch A	General Medicine	10-09-2025	10-09-2025	Scheduled	Deceased	FALSE	TRUE
+161	840	Branch A	General Medicine	21-04-2025	21-09-2025	Emergency	Transferred	FALSE	FALSE
+162	702	Branch A	Orthopedics	20-09-2025	20-09-2025	Scheduled	Deceased	TRUE	FALSE
+163	547	Branch B	General Medicine	01-02-2025	07-05-2025	Scheduled	Recovered	FALSE	TRUE
+164	659	Branch A	General Medicine	14-06-2025	23-01-2026	Scheduled	Recovered	TRUE	FALSE
+165	542	Branch B	Pediatrics	14-10-2025	14-10-2025	Emergency	Recovered	FALSE	TRUE
+166	846	Branch A	Orthopedics	02-05-2025	19-11-2025	Emergency	Recovered	FALSE	TRUE
+167	507	Branch B	Emergency	17-10-2025	17-10-2025	Scheduled	Deceased	TRUE	TRUE
+168	596	Branch B	Cardiology	26-03-2025	30-05-2025	Scheduled	Deceased	FALSE	FALSE
+169	881	Branch B	Cardiology	17-12-2025	17-12-2025	Scheduled	Transferred	FALSE	TRUE
+170	281	Branch B	General Medicine	02-07-2025	02-07-2025	Scheduled	Deceased	FALSE	TRUE
+171	424	Branch A	Cardiology	24-12-2025	24-12-2025	Emergency	Deceased	FALSE	FALSE
+172	856	Branch A	Orthopedics	17-10-2025	17-10-2025	Scheduled	Deceased	TRUE	FALSE
+173	270	Branch B	Orthopedics	08-12-2025	27-01-2026	Scheduled	Transferred	FALSE	TRUE
+174	154	Branch A	Oncology	12-05-2025	14-08-2025	Scheduled	Recovered	FALSE	TRUE
+175	614	Branch A	Oncology	19-04-2025	16-08-2025	Emergency	Deceased	TRUE	FALSE
+176	727	Branch B	Cardiology	10-08-2025	05-01-2026	Emergency	Transferred	FALSE	FALSE
+177	662	Branch A	Emergency	23-04-2025	30-12-2025	Scheduled	Transferred	FALSE	FALSE
+178	944	Branch A	Oncology	03-11-2025	03-11-2025	Scheduled	Transferred	FALSE	TRUE
+179	83	Branch A	Oncology	29-10-2025	29-10-2025	Scheduled	Recovered	FALSE	TRUE
+180	622	Branch B	Orthopedics	31-01-2025	18-02-2025	Scheduled	Deceased	TRUE	TRUE
+181	947	Branch A	Emergency	03-12-2025	03-12-2025	Scheduled	Transferred	FALSE	FALSE
+182	899	Branch B	General Medicine	15-07-2025	15-10-2025	Emergency	Recovered	TRUE	TRUE
+183	426	Branch A	Cardiology	08-10-2025	29-11-2025	Emergency	Transferred	FALSE	FALSE
+184	275	Branch A	Oncology	09-02-2025	19-07-2025	Emergency	Transferred	FALSE	TRUE
+185	713	Branch A	Emergency	29-03-2025	29-03-2025	Scheduled	Transferred	FALSE	FALSE
+186	284	Branch B	Emergency	04-08-2025	13-09-2025	Emergency	Transferred	TRUE	TRUE
+187	980	Branch B	Cardiology	07-07-2025	07-07-2025	Emergency	Transferred	FALSE	TRUE
+188	173	Branch A	Emergency	02-06-2025	27-10-2025	Emergency	Recovered	FALSE	FALSE
+189	327	Branch B	Emergency	01-03-2025	21-09-2025	Scheduled	Deceased	TRUE	FALSE
+190	718	Branch A	Emergency	03-06-2025	03-06-2025	Scheduled	Deceased	TRUE	TRUE
+191	63	Branch B	Oncology	17-11-2025	17-11-2025	Emergency	Deceased	TRUE	FALSE
+192	73	Branch B	Cardiology	12-03-2025	28-08-2025	Scheduled	Deceased	TRUE	FALSE
+193	763	Branch A	Emergency	15-03-2025	01-01-2026	Emergency	Recovered	FALSE	TRUE
+194	636	Branch A	Emergency	06-10-2025	06-10-2025	Emergency	Recovered	FALSE	FALSE
+195	375	Branch A	Oncology	07-03-2025	10-03-2025	Emergency	Recovered	FALSE	TRUE
+196	633	Branch A	Cardiology	30-10-2025	30-10-2025	Emergency	Transferred	FALSE	TRUE
+197	508	Branch B	Orthopedics	05-04-2025	15-06-2025	Scheduled	Transferred	TRUE	FALSE
+198	787	Branch B	Oncology	06-04-2025	23-07-2025	Scheduled	Transferred	FALSE	FALSE
+199	943	Branch B	Cardiology	03-01-2026	03-01-2026	Scheduled	Deceased	FALSE	TRUE
+200	398	Branch A	Emergency	01-10-2025	20-01-2026	Scheduled	Transferred	FALSE	TRUE
+201	120	Branch A	Cardiology	08-11-2025	08-11-2025	Emergency	Deceased	FALSE	TRUE
+202	934	Branch B	Cardiology	25-04-2025	29-12-2025	Scheduled	Transferred	TRUE	TRUE
+203	437	Branch A	General Medicine	15-06-2025	15-06-2025	Emergency	Deceased	FALSE	TRUE
+204	829	Branch B	Cardiology	28-10-2025	28-10-2025	Scheduled	Transferred	FALSE	TRUE
+205	676	Branch B	Orthopedics	07-12-2025	11-01-2026	Scheduled	Transferred	FALSE	FALSE
+206	936	Branch B	Cardiology	04-09-2025	31-10-2025	Scheduled	Recovered	TRUE	FALSE
+207	465	Branch B	Orthopedics	19-05-2025	13-08-2025	Emergency	Transferred	TRUE	FALSE
+208	286	Branch B	Emergency	03-11-2025	03-11-2025	Emergency	Transferred	FALSE	TRUE
+209	265	Branch A	Orthopedics	19-01-2026	19-01-2026	Emergency	Recovered	FALSE	FALSE
+210	320	Branch A	Emergency	13-05-2025	07-10-2025	Emergency	Deceased	FALSE	TRUE
+211	673	Branch A	Emergency	09-07-2025	04-11-2025	Scheduled	Recovered	TRUE	TRUE
+212	376	Branch B	Orthopedics	23-08-2025	23-08-2025	Emergency	Recovered	FALSE	FALSE
+213	820	Branch B	Oncology	09-01-2026	09-01-2026	Emergency	Deceased	FALSE	TRUE
+214	89	Branch B	Pediatrics	29-12-2025	29-12-2025	Scheduled	Transferred	FALSE	TRUE
+215	654	Branch B	Cardiology	10-08-2025	10-08-2025	Scheduled	Deceased	TRUE	TRUE
+216	203	Branch A	General Medicine	12-09-2025	20-12-2025	Emergency	Transferred	FALSE	TRUE
+217	821	Branch A	Pediatrics	22-10-2025	16-01-2026	Scheduled	Transferred	FALSE	TRUE
+218	739	Branch B	Cardiology	19-09-2025	19-09-2025	Emergency	Deceased	TRUE	TRUE
+219	955	Branch B	Cardiology	02-04-2025	27-05-2025	Scheduled	Recovered	TRUE	FALSE
+220	334	Branch B	Emergency	06-06-2025	06-06-2025	Emergency	Deceased	FALSE	TRUE
+221	222	Branch A	Cardiology	26-05-2025	10-09-2025	Emergency	Transferred	TRUE	TRUE
+222	41	Branch A	General Medicine	04-03-2025	22-03-2025	Emergency	Deceased	FALSE	TRUE
+223	708	Branch A	Cardiology	23-07-2025	21-12-2025	Emergency	Deceased	TRUE	TRUE
+224	68	Branch B	Orthopedics	10-02-2025	26-01-2026	Emergency	Transferred	TRUE	FALSE
+225	988	Branch B	Pediatrics	28-11-2025	28-11-2025	Scheduled	Recovered	FALSE	FALSE
+226	776	Branch A	Orthopedics	10-11-2025	10-11-2025	Emergency	Deceased	FALSE	TRUE
+227	514	Branch B	General Medicine	28-05-2025	28-05-2025	Emergency	Transferred	FALSE	TRUE
+228	873	Branch A	Cardiology	28-11-2025	21-01-2026	Emergency	Transferred	TRUE	TRUE
+229	637	Branch B	General Medicine	23-05-2025	03-07-2025	Emergency	Deceased	FALSE	FALSE
+230	622	Branch A	Emergency	03-02-2025	14-02-2025	Emergency	Recovered	FALSE	FALSE
+231	598	Branch B	Orthopedics	08-03-2025	08-03-2025	Scheduled	Deceased	FALSE	FALSE
+232	937	Branch A	Orthopedics	28-01-2026	28-01-2026	Scheduled	Recovered	FALSE	FALSE
+233	632	Branch A	Oncology	20-12-2025	20-12-2025	Emergency	Recovered	FALSE	TRUE
+234	127	Branch A	Cardiology	02-03-2025	30-06-2025	Scheduled	Recovered	TRUE	FALSE
+235	255	Branch A	Emergency	28-05-2025	02-08-2025	Emergency	Recovered	FALSE	FALSE
+236	695	Branch A	Orthopedics	06-03-2025	10-08-2025	Scheduled	Deceased	FALSE	TRUE
+237	16	Branch A	Orthopedics	16-02-2025	08-09-2025	Scheduled	Transferred	TRUE	TRUE
+238	477	Branch B	Emergency	19-07-2025	19-07-2025	Emergency	Transferred	FALSE	FALSE
+239	62	Branch B	General Medicine	08-03-2025	05-06-2025	Scheduled	Transferred	FALSE	FALSE
+240	881	Branch B	General Medicine	21-10-2025	29-10-2025	Scheduled	Transferred	FALSE	FALSE
+241	432	Branch A	Cardiology	01-06-2025	29-08-2025	Emergency	Transferred	FALSE	FALSE
+242	670	Branch A	Oncology	22-06-2025	16-11-2025	Emergency	Transferred	FALSE	TRUE
+243	268	Branch B	Orthopedics	08-01-2026	15-01-2026	Scheduled	Deceased	TRUE	TRUE
+244	35	Branch A	Oncology	06-10-2025	06-10-2025	Scheduled	Recovered	TRUE	FALSE
+245	779	Branch A	General Medicine	20-05-2025	20-05-2025	Scheduled	Transferred	TRUE	FALSE
+246	576	Branch A	General Medicine	03-11-2025	03-11-2025	Emergency	Deceased	FALSE	FALSE
+247	494	Branch A	Pediatrics	08-04-2025	08-04-2025	Scheduled	Transferred	TRUE	FALSE
+248	562	Branch A	Cardiology	19-11-2025	09-12-2025	Scheduled	Transferred	FALSE	FALSE
+249	469	Branch B	Pediatrics	22-11-2025	22-11-2025	Scheduled	Recovered	FALSE	TRUE
+250	767	Branch B	Pediatrics	30-09-2025	14-12-2025	Emergency	Recovered	FALSE	TRUE
+251	661	Branch B	Pediatrics	04-06-2025	15-01-2026	Emergency	Recovered	TRUE	TRUE
+252	325	Branch B	Cardiology	30-09-2025	30-09-2025	Emergency	Transferred	TRUE	FALSE
+253	304	Branch B	Cardiology	27-08-2025	12-10-2025	Emergency	Transferred	TRUE	FALSE
+254	276	Branch A	Emergency	08-05-2025	25-11-2025	Scheduled	Transferred	FALSE	TRUE
+255	869	Branch A	Oncology	20-03-2025	14-04-2025	Emergency	Recovered	TRUE	TRUE
+256	963	Branch A	Oncology	21-03-2025	29-05-2025	Scheduled	Deceased	FALSE	FALSE
+257	684	Branch A	Emergency	03-01-2026	03-01-2026	Scheduled	Transferred	TRUE	TRUE
+258	929	Branch B	Emergency	08-09-2025	23-12-2025	Scheduled	Transferred	TRUE	FALSE
+259	201	Branch B	General Medicine	31-07-2025	31-07-2025	Scheduled	Transferred	FALSE	FALSE
+260	445	Branch B	Pediatrics	04-09-2025	23-09-2025	Emergency	Deceased	FALSE	TRUE
+261	905	Branch A	Emergency	29-08-2025	29-08-2025	Emergency	Transferred	TRUE	TRUE
+262	324	Branch B	Orthopedics	27-09-2025	07-01-2026	Emergency	Deceased	TRUE	TRUE
+263	35	Branch A	Oncology	27-02-2025	27-02-2025	Emergency	Transferred	TRUE	FALSE
+264	977	Branch B	Emergency	10-01-2026	10-01-2026	Emergency	Deceased	FALSE	FALSE
+265	482	Branch B	Orthopedics	31-12-2025	31-12-2025	Scheduled	Transferred	FALSE	TRUE
+266	728	Branch A	Orthopedics	27-12-2025	12-01-2026	Emergency	Recovered	TRUE	FALSE
+267	480	Branch A	Orthopedics	22-03-2025	06-11-2025	Emergency	Recovered	TRUE	FALSE
+268	65	Branch B	General Medicine	03-03-2025	21-04-2025	Emergency	Recovered	FALSE	FALSE
+269	8	Branch B	General Medicine	25-08-2025	25-08-2025	Emergency	Recovered	TRUE	TRUE
+270	301	Branch A	Orthopedics	23-07-2025	14-09-2025	Scheduled	Transferred	FALSE	FALSE
+271	343	Branch B	General Medicine	27-03-2025	26-07-2025	Scheduled	Recovered	FALSE	TRUE
+272	431	Branch B	Pediatrics	07-06-2025	27-11-2025	Scheduled	Deceased	FALSE	TRUE
+273	424	Branch A	Orthopedics	09-05-2025	03-07-2025	Scheduled	Recovered	FALSE	FALSE
+274	332	Branch B	Pediatrics	08-05-2025	24-12-2025	Scheduled	Recovered	FALSE	TRUE
+275	438	Branch A	Pediatrics	01-11-2025	01-11-2025	Emergency	Recovered	FALSE	FALSE
+276	588	Branch B	Orthopedics	17-09-2025	19-01-2026	Scheduled	Transferred	TRUE	TRUE
+277	174	Branch A	Oncology	12-04-2025	08-06-2025	Scheduled	Recovered	FALSE	TRUE
+278	559	Branch B	Orthopedics	04-09-2025	21-09-2025	Scheduled	Deceased	FALSE	FALSE
+279	527	Branch A	Orthopedics	04-05-2025	04-07-2025	Emergency	Recovered	TRUE	TRUE
+280	873	Branch B	General Medicine	22-06-2025	22-06-2025	Emergency	Recovered	FALSE	TRUE
+281	659	Branch A	Orthopedics	24-09-2025	24-09-2025	Scheduled	Recovered	TRUE	TRUE
+282	26	Branch B	Oncology	07-06-2025	05-10-2025	Emergency	Deceased	FALSE	FALSE
+283	820	Branch B	General Medicine	10-03-2025	26-03-2025	Emergency	Recovered	TRUE	FALSE
+284	605	Branch B	Cardiology	14-09-2025	14-09-2025	Scheduled	Deceased	TRUE	TRUE
+285	406	Branch B	Cardiology	08-11-2025	08-11-2025	Emergency	Deceased	FALSE	TRUE
+286	232	Branch B	Pediatrics	22-03-2025	19-11-2025	Emergency	Recovered	FALSE	TRUE
+287	533	Branch B	Pediatrics	25-02-2025	02-08-2025	Emergency	Deceased	FALSE	FALSE
+288	819	Branch B	Oncology	30-12-2025	30-12-2025	Scheduled	Transferred	FALSE	FALSE
+289	550	Branch B	Emergency	03-11-2025	03-11-2025	Scheduled	Recovered	TRUE	TRUE
+290	788	Branch B	Cardiology	07-02-2025	24-01-2026	Scheduled	Recovered	TRUE	FALSE
+291	505	Branch A	Pediatrics	19-03-2025	01-07-2025	Emergency	Deceased	TRUE	FALSE
+292	669	Branch A	Cardiology	01-06-2025	01-06-2025	Scheduled	Deceased	FALSE	FALSE
+293	179	Branch B	Oncology	26-04-2025	03-01-2026	Emergency	Recovered	TRUE	FALSE
+294	132	Branch A	Oncology	27-08-2025	27-08-2025	Emergency	Transferred	FALSE	TRUE
+295	823	Branch B	Emergency	06-10-2025	06-10-2025	Emergency	Deceased	FALSE	FALSE
+296	455	Branch B	Emergency	04-10-2025	04-10-2025	Scheduled	Deceased	TRUE	FALSE
+297	348	Branch A	General Medicine	20-05-2025	16-11-2025	Scheduled	Transferred	FALSE	TRUE
+298	540	Branch B	Oncology	24-08-2025	17-01-2026	Scheduled	Transferred	TRUE	TRUE
+299	772	Branch B	Pediatrics	02-03-2025	02-03-2025	Scheduled	Recovered	FALSE	FALSE
+300	406	Branch A	Cardiology	25-04-2025	07-12-2025	Emergency	Transferred	TRUE	FALSE
+301	76	Branch A	Orthopedics	13-08-2025	12-10-2025	Scheduled	Recovered	FALSE	TRUE
+302	941	Branch B	Emergency	01-02-2025	26-06-2025	Emergency	Transferred	TRUE	TRUE
+303	579	Branch A	Orthopedics	18-08-2025	18-08-2025	Scheduled	Deceased	TRUE	TRUE
+304	854	Branch A	Pediatrics	15-06-2025	07-12-2025	Scheduled	Recovered	FALSE	FALSE
+305	492	Branch B	Emergency	20-09-2025	20-09-2025	Scheduled	Recovered	FALSE	FALSE
+306	194	Branch A	Orthopedics	26-06-2025	26-06-2025	Emergency	Recovered	TRUE	TRUE
+307	984	Branch A	Pediatrics	04-09-2025	22-12-2025	Emergency	Transferred	FALSE	FALSE
+308	162	Branch B	Cardiology	22-01-2026	22-01-2026	Emergency	Deceased	FALSE	TRUE
+309	347	Branch A	Pediatrics	11-11-2025	14-12-2025	Emergency	Recovered	FALSE	FALSE
+310	951	Branch A	General Medicine	04-01-2026	04-01-2026	Emergency	Recovered	TRUE	TRUE
+311	361	Branch B	Emergency	07-10-2025	13-01-2026	Scheduled	Recovered	TRUE	TRUE
+312	769	Branch B	Oncology	20-04-2025	03-01-2026	Emergency	Recovered	FALSE	FALSE
+313	584	Branch B	Cardiology	08-05-2025	14-01-2026	Emergency	Deceased	FALSE	FALSE
+314	87	Branch A	Orthopedics	01-07-2025	01-07-2025	Emergency	Transferred	TRUE	FALSE
+315	934	Branch B	Emergency	22-05-2025	18-12-2025	Emergency	Deceased	FALSE	FALSE
+316	262	Branch B	Oncology	01-03-2025	21-03-2025	Scheduled	Recovered	TRUE	FALSE
+317	214	Branch A	Pediatrics	23-11-2025	18-12-2025	Emergency	Deceased	FALSE	FALSE
+318	665	Branch B	Oncology	04-11-2025	27-12-2025	Scheduled	Recovered	FALSE	TRUE
+319	722	Branch B	Emergency	03-03-2025	03-03-2025	Scheduled	Transferred	FALSE	FALSE
+320	913	Branch B	Emergency	10-07-2025	10-07-2025	Scheduled	Transferred	TRUE	TRUE
+321	573	Branch B	General Medicine	01-03-2025	13-09-2025	Emergency	Transferred	TRUE	TRUE
+322	780	Branch A	General Medicine	25-02-2025	25-02-2025	Scheduled	Recovered	TRUE	FALSE
+323	262	Branch B	Oncology	26-11-2025	26-11-2025	Emergency	Deceased	TRUE	TRUE
+324	730	Branch B	Pediatrics	02-10-2025	02-10-2025	Emergency	Transferred	FALSE	TRUE
+325	283	Branch A	Oncology	15-10-2025	15-10-2025	Emergency	Recovered	FALSE	FALSE
+326	648	Branch B	Emergency	29-10-2025	29-10-2025	Emergency	Recovered	TRUE	FALSE
+327	467	Branch A	Emergency	21-04-2025	01-07-2025	Emergency	Deceased	FALSE	FALSE
+328	380	Branch A	Orthopedics	01-03-2025	17-07-2025	Scheduled	Transferred	FALSE	TRUE
+329	362	Branch A	General Medicine	18-10-2025	18-10-2025	Scheduled	Recovered	TRUE	FALSE
+330	449	Branch B	Orthopedics	13-03-2025	30-04-2025	Emergency	Deceased	FALSE	FALSE
+331	441	Branch A	Cardiology	06-05-2025	13-05-2025	Scheduled	Transferred	FALSE	FALSE
+332	93	Branch A	Emergency	07-03-2025	08-04-2025	Emergency	Deceased	TRUE	FALSE
+333	621	Branch A	Orthopedics	01-12-2025	01-12-2025	Scheduled	Deceased	FALSE	TRUE
+334	753	Branch B	Oncology	06-03-2025	06-08-2025	Scheduled	Recovered	FALSE	FALSE
+335	867	Branch B	General Medicine	11-01-2026	11-01-2026	Scheduled	Recovered	FALSE	TRUE
+336	424	Branch B	General Medicine	31-05-2025	14-10-2025	Scheduled	Recovered	TRUE	FALSE
+337	142	Branch B	Pediatrics	25-08-2025	25-08-2025	Scheduled	Deceased	TRUE	TRUE
+338	291	Branch B	Oncology	02-04-2025	25-04-2025	Emergency	Recovered	FALSE	TRUE
+339	432	Branch B	Pediatrics	18-11-2025	18-11-2025	Emergency	Deceased	FALSE	TRUE
+340	749	Branch B	Orthopedics	06-06-2025	04-10-2025	Scheduled	Deceased	FALSE	FALSE
+341	852	Branch A	Cardiology	23-11-2025	23-11-2025	Emergency	Recovered	TRUE	TRUE
+342	824	Branch A	Oncology	01-12-2025	01-12-2025	Scheduled	Transferred	TRUE	FALSE
+343	689	Branch A	Oncology	20-02-2025	30-03-2025	Emergency	Transferred	TRUE	FALSE
+344	653	Branch A	Oncology	14-12-2025	14-12-2025	Scheduled	Transferred	FALSE	FALSE
+345	701	Branch B	Pediatrics	13-03-2025	13-03-2025	Scheduled	Deceased	FALSE	FALSE
+346	998	Branch A	Orthopedics	02-09-2025	02-09-2025	Scheduled	Deceased	FALSE	FALSE
+347	49	Branch A	Oncology	02-01-2026	02-01-2026	Emergency	Deceased	FALSE	TRUE
+348	302	Branch A	Oncology	25-11-2025	12-01-2026	Emergency	Recovered	FALSE	FALSE
+349	881	Branch A	General Medicine	16-11-2025	11-01-2026	Scheduled	Deceased	TRUE	TRUE
+350	190	Branch B	Cardiology	25-10-2025	25-10-2025	Scheduled	Recovered	FALSE	TRUE
+351	136	Branch B	General Medicine	11-07-2025	12-11-2025	Emergency	Recovered	FALSE	TRUE
+352	555	Branch B	General Medicine	13-06-2025	06-08-2025	Emergency	Transferred	FALSE	TRUE
+353	404	Branch A	Cardiology	15-05-2025	15-05-2025	Emergency	Transferred	TRUE	TRUE
+354	892	Branch B	Orthopedics	08-01-2026	08-01-2026	Emergency	Transferred	FALSE	TRUE
+355	865	Branch A	General Medicine	10-07-2025	10-07-2025	Emergency	Recovered	TRUE	TRUE
+356	602	Branch B	Orthopedics	02-06-2025	15-06-2025	Scheduled	Recovered	TRUE	FALSE
+357	807	Branch B	General Medicine	15-06-2025	01-11-2025	Emergency	Recovered	TRUE	TRUE
+358	341	Branch B	Emergency	21-08-2025	21-08-2025	Scheduled	Deceased	TRUE	FALSE
+359	757	Branch B	Cardiology	08-04-2025	20-09-2025	Scheduled	Recovered	TRUE	TRUE
+360	945	Branch B	General Medicine	09-01-2026	09-01-2026	Emergency	Transferred	FALSE	TRUE
+361	704	Branch A	Emergency	27-12-2025	10-01-2026	Emergency	Transferred	FALSE	TRUE
+362	318	Branch B	Pediatrics	03-07-2025	10-01-2026	Scheduled	Recovered	TRUE	TRUE
+363	618	Branch A	Emergency	22-09-2025	22-09-2025	Emergency	Recovered	TRUE	FALSE
+364	363	Branch A	Oncology	11-07-2025	26-11-2025	Scheduled	Transferred	TRUE	FALSE
+365	822	Branch A	General Medicine	09-03-2025	14-08-2025	Emergency	Recovered	FALSE	FALSE
+366	382	Branch A	Emergency	04-02-2025	23-12-2025	Emergency	Transferred	FALSE	TRUE
+367	233	Branch A	Orthopedics	22-09-2025	22-09-2025	Emergency	Deceased	TRUE	TRUE
+368	777	Branch B	Pediatrics	15-12-2025	15-12-2025	Scheduled	Transferred	FALSE	TRUE
+369	344	Branch B	General Medicine	15-11-2025	11-01-2026	Emergency	Deceased	FALSE	FALSE
+370	549	Branch B	Oncology	23-03-2025	30-05-2025	Scheduled	Recovered	TRUE	TRUE
+371	817	Branch B	Emergency	09-03-2025	29-09-2025	Emergency	Recovered	TRUE	FALSE
+372	553	Branch A	Pediatrics	02-11-2025	02-11-2025	Scheduled	Deceased	FALSE	FALSE
+373	529	Branch B	General Medicine	20-05-2025	14-12-2025	Emergency	Recovered	FALSE	TRUE
+374	856	Branch B	Pediatrics	17-10-2025	14-11-2025	Scheduled	Deceased	FALSE	TRUE
+375	789	Branch A	Oncology	15-06-2025	17-07-2025	Scheduled	Recovered	TRUE	FALSE
+376	819	Branch A	Emergency	08-04-2025	09-12-2025	Scheduled	Transferred	TRUE	FALSE
+377	571	Branch B	Pediatrics	28-07-2025	28-07-2025	Scheduled	Recovered	TRUE	FALSE
+378	935	Branch B	Pediatrics	07-03-2025	28-12-2025	Scheduled	Transferred	FALSE	TRUE
+379	183	Branch A	Cardiology	05-06-2025	05-06-2025	Scheduled	Transferred	FALSE	TRUE
+380	41	Branch B	Pediatrics	08-08-2025	22-12-2025	Emergency	Deceased	TRUE	TRUE
+381	551	Branch B	Cardiology	25-06-2025	25-09-2025	Scheduled	Recovered	FALSE	TRUE
+382	397	Branch B	Emergency	21-04-2025	24-01-2026	Scheduled	Deceased	TRUE	TRUE
+383	704	Branch B	General Medicine	12-09-2025	12-09-2025	Scheduled	Recovered	FALSE	TRUE
+384	779	Branch A	General Medicine	05-11-2025	29-12-2025	Emergency	Transferred	TRUE	FALSE
+385	494	Branch A	Emergency	26-01-2026	26-01-2026	Emergency	Transferred	FALSE	FALSE
+386	659	Branch A	Emergency	04-07-2025	04-07-2025	Emergency	Recovered	FALSE	FALSE
+387	907	Branch B	Orthopedics	10-12-2025	10-12-2025	Scheduled	Recovered	TRUE	TRUE
+388	333	Branch B	Emergency	31-12-2025	31-12-2025	Emergency	Deceased	TRUE	FALSE
+389	127	Branch B	Pediatrics	28-10-2025	28-10-2025	Emergency	Recovered	TRUE	TRUE
+390	558	Branch B	General Medicine	04-02-2025	05-07-2025	Scheduled	Recovered	TRUE	TRUE
+391	557	Branch B	Oncology	07-01-2026	07-01-2026	Scheduled	Recovered	TRUE	FALSE
+392	1	Branch A	General Medicine	10-11-2025	10-11-2025	Emergency	Deceased	FALSE	TRUE
+393	168	Branch B	Cardiology	03-07-2025	03-07-2025	Scheduled	Recovered	TRUE	FALSE
+394	620	Branch B	General Medicine	05-01-2026	05-01-2026	Scheduled	Transferred	TRUE	FALSE
+395	19	Branch A	Orthopedics	25-03-2025	02-11-2025	Scheduled	Deceased	TRUE	TRUE
+396	332	Branch B	Emergency	09-04-2025	10-04-2025	Scheduled	Deceased	TRUE	FALSE
+397	584	Branch A	Emergency	15-06-2025	17-08-2025	Emergency	Transferred	TRUE	FALSE
+398	456	Branch A	General Medicine	31-03-2025	20-09-2025	Scheduled	Transferred	FALSE	FALSE
+399	957	Branch A	Oncology	26-03-2025	08-08-2025	Emergency	Transferred	TRUE	FALSE
+400	109	Branch A	Oncology	10-11-2025	09-01-2026	Emergency	Recovered	TRUE	TRUE
+401	268	Branch A	Orthopedics	20-04-2025	22-01-2026	Emergency	Transferred	TRUE	FALSE
+402	445	Branch B	Cardiology	19-06-2025	03-11-2025	Emergency	Recovered	FALSE	FALSE
+403	240	Branch A	General Medicine	24-06-2025	02-09-2025	Scheduled	Deceased	FALSE	FALSE
+404	929	Branch A	Emergency	06-12-2025	06-12-2025	Scheduled	Deceased	TRUE	TRUE
+405	301	Branch B	General Medicine	18-05-2025	18-05-2025	Scheduled	Transferred	TRUE	FALSE
+406	602	Branch B	Orthopedics	25-07-2025	31-08-2025	Emergency	Recovered	FALSE	TRUE
+407	103	Branch A	Pediatrics	15-05-2025	01-01-2026	Emergency	Transferred	FALSE	FALSE
+408	988	Branch B	Pediatrics	17-01-2026	17-01-2026	Emergency	Transferred	FALSE	FALSE
+409	250	Branch B	Orthopedics	21-12-2025	21-12-2025	Scheduled	Recovered	TRUE	FALSE
+410	453	Branch A	Emergency	15-06-2025	12-12-2025	Emergency	Transferred	TRUE	TRUE
+411	520	Branch A	Orthopedics	16-10-2025	16-10-2025	Scheduled	Deceased	FALSE	TRUE
+412	153	Branch B	Emergency	08-10-2025	08-10-2025	Scheduled	Transferred	TRUE	TRUE
+413	859	Branch A	Oncology	08-06-2025	08-06-2025	Scheduled	Recovered	FALSE	TRUE
+414	174	Branch A	Orthopedics	26-02-2025	19-01-2026	Scheduled	Recovered	FALSE	TRUE
+415	343	Branch B	Emergency	19-03-2025	08-08-2025	Emergency	Deceased	FALSE	TRUE
+416	670	Branch A	Orthopedics	21-12-2025	21-12-2025	Scheduled	Recovered	TRUE	FALSE
+417	431	Branch A	Orthopedics	04-09-2025	15-09-2025	Emergency	Recovered	FALSE	TRUE
+418	727	Branch A	Emergency	21-06-2025	15-09-2025	Scheduled	Deceased	FALSE	FALSE
+419	689	Branch A	Emergency	22-02-2025	31-05-2025	Emergency	Transferred	TRUE	TRUE
+420	687	Branch A	Cardiology	01-02-2025	04-08-2025	Emergency	Deceased	FALSE	TRUE
+421	852	Branch B	Orthopedics	20-07-2025	20-07-2025	Scheduled	Transferred	TRUE	TRUE
+422	850	Branch B	Pediatrics	07-04-2025	17-01-2026	Scheduled	Deceased	FALSE	FALSE
+423	658	Branch A	Orthopedics	23-12-2025	23-12-2025	Scheduled	Transferred	TRUE	TRUE
+424	962	Branch B	Orthopedics	14-06-2025	05-11-2025	Emergency	Deceased	FALSE	TRUE
+425	324	Branch A	Emergency	23-04-2025	27-12-2025	Scheduled	Transferred	FALSE	FALSE
+426	990	Branch A	Orthopedics	14-09-2025	14-09-2025	Scheduled	Deceased	FALSE	FALSE
+427	673	Branch A	General Medicine	09-11-2025	09-11-2025	Emergency	Transferred	FALSE	FALSE
+428	639	Branch A	Orthopedics	27-01-2026	27-01-2026	Scheduled	Deceased	FALSE	FALSE
+429	420	Branch A	General Medicine	06-09-2025	06-09-2025	Emergency	Recovered	TRUE	TRUE
+430	594	Branch B	Pediatrics	14-11-2025	14-11-2025	Scheduled	Transferred	TRUE	FALSE
+431	485	Branch B	Emergency	04-02-2025	03-04-2025	Emergency	Deceased	FALSE	TRUE
+432	659	Branch A	Orthopedics	29-03-2025	20-09-2025	Emergency	Transferred	FALSE	TRUE
+433	751	Branch B	General Medicine	10-03-2025	18-03-2025	Scheduled	Transferred	FALSE	FALSE
+434	412	Branch A	General Medicine	19-01-2026	19-01-2026	Emergency	Deceased	TRUE	TRUE
+435	936	Branch B	General Medicine	17-04-2025	19-05-2025	Scheduled	Transferred	TRUE	FALSE
+436	84	Branch A	Oncology	06-11-2025	25-12-2025	Scheduled	Deceased	FALSE	TRUE
+437	113	Branch B	Cardiology	18-02-2025	24-12-2025	Emergency	Recovered	TRUE	FALSE
+438	737	Branch A	Pediatrics	08-08-2025	02-12-2025	Scheduled	Transferred	FALSE	FALSE
+439	332	Branch A	Orthopedics	25-11-2025	25-11-2025	Emergency	Recovered	FALSE	FALSE
+440	378	Branch B	Oncology	09-11-2025	09-11-2025	Emergency	Transferred	FALSE	FALSE
+441	755	Branch B	Orthopedics	16-04-2025	20-07-2025	Emergency	Transferred	TRUE	FALSE
+442	655	Branch A	Orthopedics	08-09-2025	08-09-2025	Emergency	Transferred	FALSE	FALSE
+443	41	Branch B	Emergency	06-04-2025	06-04-2025	Emergency	Deceased	FALSE	TRUE
+444	935	Branch A	Emergency	21-02-2025	16-11-2025	Emergency	Recovered	FALSE	TRUE
+445	770	Branch B	Emergency	07-07-2025	07-07-2025	Emergency	Transferred	TRUE	TRUE
+446	959	Branch B	Oncology	05-08-2025	05-08-2025	Emergency	Deceased	TRUE	FALSE
+447	797	Branch A	Orthopedics	20-02-2025	10-11-2025	Scheduled	Transferred	TRUE	TRUE
+448	105	Branch B	Cardiology	02-08-2025	02-08-2025	Scheduled	Deceased	FALSE	FALSE
+449	202	Branch B	Pediatrics	18-05-2025	27-11-2025	Emergency	Transferred	TRUE	TRUE
+450	450	Branch A	Emergency	15-01-2026	15-01-2026	Scheduled	Recovered	FALSE	TRUE
+451	819	Branch B	Emergency	07-06-2025	07-06-2025	Scheduled	Recovered	TRUE	FALSE
+452	843	Branch A	Orthopedics	07-01-2026	07-01-2026	Scheduled	Transferred	FALSE	TRUE
+453	973	Branch A	Orthopedics	24-03-2025	16-04-2025	Scheduled	Deceased	TRUE	TRUE
+454	266	Branch A	Oncology	31-07-2025	02-12-2025	Scheduled	Transferred	FALSE	TRUE
+455	910	Branch A	Oncology	13-11-2025	13-11-2025	Scheduled	Deceased	TRUE	FALSE
+456	210	Branch A	Emergency	27-08-2025	27-08-2025	Emergency	Transferred	TRUE	TRUE
+457	563	Branch B	Orthopedics	14-12-2025	14-12-2025	Scheduled	Deceased	TRUE	FALSE
+458	118	Branch A	Cardiology	20-04-2025	20-04-2025	Scheduled	Recovered	FALSE	TRUE
+459	713	Branch A	Pediatrics	01-06-2025	03-11-2025	Scheduled	Transferred	TRUE	TRUE
+460	377	Branch B	Orthopedics	24-04-2025	08-06-2025	Scheduled	Recovered	TRUE	TRUE
+461	551	Branch B	Orthopedics	01-05-2025	01-05-2025	Emergency	Recovered	TRUE	TRUE
+462	540	Branch B	General Medicine	30-08-2025	30-08-2025	Emergency	Transferred	TRUE	FALSE
+463	771	Branch A	Oncology	12-02-2025	04-01-2026	Emergency	Transferred	FALSE	TRUE
+464	84	Branch A	Pediatrics	02-05-2025	02-05-2025	Emergency	Deceased	TRUE	FALSE
+465	454	Branch A	Emergency	20-07-2025	20-07-2025	Scheduled	Deceased	FALSE	FALSE
+466	667	Branch B	Orthopedics	29-08-2025	29-08-2025	Emergency	Recovered	FALSE	TRUE
+467	629	Branch A	Emergency	08-01-2026	08-01-2026	Emergency	Deceased	FALSE	TRUE
+468	514	Branch B	Orthopedics	07-06-2025	07-06-2025	Emergency	Deceased	FALSE	FALSE
+469	605	Branch A	Emergency	16-06-2025	28-11-2025	Emergency	Transferred	TRUE	FALSE
+470	678	Branch B	Pediatrics	22-04-2025	15-07-2025	Scheduled	Deceased	FALSE	TRUE
+471	387	Branch A	Oncology	25-01-2026	25-01-2026	Emergency	Recovered	FALSE	TRUE
+472	912	Branch A	Pediatrics	27-03-2025	30-04-2025	Scheduled	Deceased	FALSE	TRUE
+473	350	Branch A	General Medicine	14-08-2025	14-08-2025	Emergency	Recovered	FALSE	TRUE
+474	296	Branch B	Cardiology	19-02-2025	26-02-2025	Scheduled	Transferred	TRUE	TRUE
+475	258	Branch B	Oncology	28-09-2025	28-09-2025	Scheduled	Recovered	TRUE	FALSE
+476	81	Branch A	Pediatrics	24-05-2025	03-09-2025	Emergency	Deceased	FALSE	TRUE
+477	937	Branch A	General Medicine	13-05-2025	27-10-2025	Emergency	Transferred	FALSE	TRUE
+478	268	Branch A	Cardiology	23-09-2025	23-09-2025	Emergency	Deceased	FALSE	FALSE
+479	419	Branch B	General Medicine	29-07-2025	29-07-2025	Emergency	Transferred	TRUE	TRUE
+480	235	Branch A	Orthopedics	06-07-2025	01-10-2025	Scheduled	Transferred	TRUE	TRUE
+481	833	Branch A	Orthopedics	27-05-2025	17-09-2025	Scheduled	Deceased	TRUE	FALSE
+482	311	Branch A	Emergency	25-05-2025	04-08-2025	Emergency	Deceased	TRUE	TRUE
+483	813	Branch A	Oncology	12-02-2025	20-10-2025	Emergency	Transferred	TRUE	FALSE
+484	975	Branch B	Orthopedics	03-01-2026	03-01-2026	Scheduled	Transferred	FALSE	TRUE
+485	986	Branch B	General Medicine	09-05-2025	09-05-2025	Emergency	Deceased	TRUE	TRUE
+486	357	Branch A	Oncology	23-08-2025	19-09-2025	Scheduled	Recovered	TRUE	TRUE
+487	213	Branch A	Orthopedics	18-07-2025	15-10-2025	Emergency	Deceased	FALSE	FALSE
+488	574	Branch B	Emergency	22-06-2025	22-06-2025	Scheduled	Transferred	TRUE	FALSE
+489	49	Branch B	Pediatrics	07-03-2025	11-12-2025	Scheduled	Deceased	TRUE	FALSE
+490	127	Branch A	Emergency	22-06-2025	22-06-2025	Scheduled	Recovered	TRUE	FALSE
+491	223	Branch B	Cardiology	29-07-2025	03-01-2026	Scheduled	Deceased	FALSE	TRUE
+492	921	Branch B	Orthopedics	25-12-2025	25-12-2025	Scheduled	Transferred	TRUE	FALSE
+493	279	Branch A	Cardiology	18-10-2025	18-10-2025	Emergency	Deceased	FALSE	FALSE
+494	408	Branch B	Cardiology	23-08-2025	22-09-2025	Scheduled	Transferred	FALSE	FALSE
+495	505	Branch B	General Medicine	13-01-2026	13-01-2026	Emergency	Transferred	TRUE	TRUE
+496	294	Branch A	Oncology	01-11-2025	01-11-2025	Scheduled	Deceased	TRUE	TRUE
+497	796	Branch A	General Medicine	19-07-2025	19-07-2025	Scheduled	Transferred	TRUE	FALSE
+498	277	Branch B	Orthopedics	14-02-2025	03-10-2025	Emergency	Transferred	TRUE	FALSE
+499	438	Branch A	Cardiology	31-03-2025	24-08-2025	Emergency	Recovered	FALSE	TRUE
+500	107	Branch B	Pediatrics	13-06-2025	06-09-2025	Emergency	Recovered	TRUE	FALSE
+501	658	Branch A	Cardiology	02-05-2025	17-01-2026	Emergency	Recovered	FALSE	FALSE
+502	420	Branch B	Pediatrics	24-11-2025	24-11-2025	Scheduled	Recovered	FALSE	FALSE
+503	611	Branch A	General Medicine	15-06-2025	09-10-2025	Emergency	Transferred	FALSE	FALSE
+504	429	Branch B	General Medicine	19-02-2025	30-01-2026	Scheduled	Deceased	FALSE	TRUE
+505	375	Branch B	Oncology	27-03-2025	15-09-2025	Emergency	Transferred	FALSE	TRUE
+506	73	Branch B	Cardiology	02-12-2025	02-12-2025	Emergency	Transferred	TRUE	TRUE
+507	949	Branch A	Emergency	10-09-2025	10-09-2025	Scheduled	Transferred	FALSE	FALSE
+508	998	Branch A	General Medicine	26-07-2025	26-07-2025	Scheduled	Deceased	FALSE	FALSE
+509	634	Branch B	General Medicine	10-07-2025	08-12-2025	Emergency	Recovered	TRUE	TRUE
+510	30	Branch B	Oncology	11-09-2025	11-09-2025	Scheduled	Transferred	TRUE	TRUE
+511	188	Branch A	Pediatrics	07-12-2025	07-12-2025	Scheduled	Transferred	FALSE	TRUE
+512	364	Branch A	Oncology	19-10-2025	19-10-2025	Scheduled	Recovered	FALSE	FALSE
+513	866	Branch A	Cardiology	31-03-2025	20-06-2025	Scheduled	Transferred	TRUE	TRUE
+514	800	Branch A	Orthopedics	16-08-2025	16-12-2025	Scheduled	Deceased	FALSE	FALSE
+515	451	Branch A	Orthopedics	22-11-2025	21-12-2025	Scheduled	Transferred	TRUE	FALSE
+516	195	Branch A	Pediatrics	08-05-2025	26-11-2025	Scheduled	Transferred	TRUE	TRUE
+517	156	Branch B	General Medicine	10-06-2025	07-11-2025	Scheduled	Recovered	FALSE	TRUE
+518	172	Branch A	Pediatrics	22-02-2025	30-01-2026	Emergency	Transferred	TRUE	FALSE
+519	847	Branch B	General Medicine	28-01-2026	28-01-2026	Scheduled	Transferred	FALSE	TRUE
+520	41	Branch A	General Medicine	11-09-2025	11-09-2025	Emergency	Deceased	FALSE	TRUE
+521	63	Branch A	Orthopedics	31-01-2025	02-12-2025	Scheduled	Recovered	FALSE	FALSE
+522	23	Branch B	Pediatrics	24-10-2025	29-10-2025	Scheduled	Recovered	TRUE	FALSE
+523	360	Branch B	Oncology	02-11-2025	02-11-2025	Scheduled	Deceased	FALSE	FALSE
+524	75	Branch A	General Medicine	17-01-2026	17-01-2026	Scheduled	Transferred	TRUE	FALSE
+525	560	Branch B	Emergency	09-01-2026	09-01-2026	Emergency	Recovered	FALSE	FALSE
+526	672	Branch B	Emergency	11-05-2025	06-12-2025	Emergency	Recovered	FALSE	TRUE
+527	825	Branch B	Oncology	05-08-2025	08-09-2025	Scheduled	Transferred	TRUE	FALSE
+528	118	Branch B	Emergency	08-09-2025	08-09-2025	Emergency	Transferred	FALSE	FALSE
+529	612	Branch A	Cardiology	07-03-2025	25-01-2026	Scheduled	Recovered	FALSE	FALSE
+530	380	Branch B	General Medicine	06-01-2026	06-01-2026	Scheduled	Transferred	TRUE	TRUE
+531	929	Branch A	Oncology	19-07-2025	01-01-2026	Emergency	Recovered	TRUE	FALSE
+532	920	Branch A	Pediatrics	16-12-2025	30-12-2025	Emergency	Transferred	TRUE	FALSE
+533	679	Branch A	General Medicine	10-07-2025	09-11-2025	Scheduled	Transferred	FALSE	FALSE
+534	290	Branch A	Oncology	05-01-2026	05-01-2026	Scheduled	Deceased	TRUE	TRUE
+535	440	Branch B	Orthopedics	04-04-2025	08-09-2025	Emergency	Transferred	TRUE	FALSE
+536	668	Branch B	Pediatrics	03-07-2025	19-09-2025	Scheduled	Deceased	FALSE	FALSE
+537	933	Branch A	Orthopedics	17-10-2025	17-10-2025	Emergency	Transferred	TRUE	FALSE
+538	7	Branch A	General Medicine	08-07-2025	30-08-2025	Scheduled	Recovered	FALSE	TRUE
+539	196	Branch A	Pediatrics	07-01-2026	07-01-2026	Scheduled	Recovered	FALSE	TRUE
+540	421	Branch A	Emergency	28-08-2025	20-09-2025	Emergency	Transferred	TRUE	TRUE
+541	568	Branch B	Oncology	17-07-2025	23-08-2025	Emergency	Transferred	FALSE	TRUE
+542	833	Branch A	General Medicine	25-08-2025	31-08-2025	Emergency	Recovered	TRUE	FALSE
+543	193	Branch B	Cardiology	22-01-2026	22-01-2026	Scheduled	Transferred	TRUE	FALSE
+544	559	Branch A	Pediatrics	01-07-2025	10-07-2025	Scheduled	Deceased	TRUE	TRUE
+545	148	Branch A	Pediatrics	10-11-2025	10-11-2025	Scheduled	Deceased	TRUE	TRUE
+546	787	Branch A	General Medicine	06-04-2025	10-07-2025	Scheduled	Deceased	FALSE	FALSE
+547	669	Branch A	General Medicine	09-05-2025	06-01-2026	Emergency	Deceased	FALSE	FALSE
+548	202	Branch B	Orthopedics	03-09-2025	03-09-2025	Scheduled	Deceased	TRUE	TRUE
+549	444	Branch B	Emergency	06-01-2026	06-01-2026	Scheduled	Transferred	TRUE	TRUE
+550	914	Branch B	Orthopedics	13-08-2025	13-08-2025	Scheduled	Transferred	FALSE	TRUE
+551	988	Branch A	Orthopedics	12-01-2026	17-01-2026	Emergency	Deceased	TRUE	TRUE
+552	419	Branch A	Emergency	30-04-2025	30-09-2025	Scheduled	Transferred	FALSE	FALSE
+553	427	Branch B	Cardiology	12-12-2025	12-12-2025	Scheduled	Transferred	TRUE	TRUE
+554	479	Branch B	Orthopedics	18-11-2025	18-11-2025	Emergency	Deceased	FALSE	TRUE
+555	475	Branch A	Orthopedics	04-07-2025	04-07-2025	Scheduled	Transferred	FALSE	FALSE
+556	126	Branch A	Pediatrics	26-08-2025	26-08-2025	Scheduled	Transferred	FALSE	FALSE
+557	395	Branch B	Emergency	07-11-2025	07-11-2025	Emergency	Transferred	TRUE	FALSE
+558	817	Branch A	Oncology	31-01-2025	21-03-2025	Scheduled	Deceased	TRUE	FALSE
+559	881	Branch A	Cardiology	05-07-2025	09-08-2025	Scheduled	Transferred	TRUE	FALSE
+560	806	Branch B	Cardiology	26-06-2025	26-06-2025	Scheduled	Recovered	TRUE	TRUE
+561	576	Branch A	Emergency	18-05-2025	11-11-2025	Emergency	Recovered	TRUE	TRUE
+562	325	Branch B	General Medicine	08-09-2025	08-09-2025	Scheduled	Deceased	FALSE	TRUE
+563	392	Branch A	General Medicine	23-11-2025	27-11-2025	Scheduled	Recovered	FALSE	FALSE
+564	930	Branch B	Pediatrics	07-12-2025	07-12-2025	Emergency	Deceased	FALSE	TRUE
+565	688	Branch A	Pediatrics	01-01-2026	01-01-2026	Emergency	Recovered	FALSE	FALSE
+566	628	Branch B	Emergency	14-07-2025	18-07-2025	Scheduled	Recovered	FALSE	TRUE
+567	440	Branch B	Pediatrics	26-09-2025	09-01-2026	Scheduled	Recovered	FALSE	TRUE
+568	204	Branch B	Cardiology	14-09-2025	14-09-2025	Scheduled	Deceased	FALSE	FALSE
+569	486	Branch B	Cardiology	14-09-2025	14-09-2025	Scheduled	Deceased	TRUE	FALSE
+570	833	Branch A	Oncology	11-01-2026	11-01-2026	Emergency	Transferred	FALSE	TRUE
+571	31	Branch A	General Medicine	20-05-2025	06-01-2026	Scheduled	Deceased	TRUE	TRUE
+572	388	Branch B	Emergency	19-10-2025	19-10-2025	Emergency	Recovered	FALSE	TRUE
+573	625	Branch A	Orthopedics	30-09-2025	30-09-2025	Emergency	Recovered	FALSE	TRUE
+574	877	Branch A	General Medicine	27-04-2025	27-06-2025	Scheduled	Deceased	TRUE	TRUE
+575	434	Branch A	Orthopedics	03-01-2026	03-01-2026	Scheduled	Deceased	FALSE	FALSE
+576	837	Branch A	Oncology	15-03-2025	09-07-2025	Emergency	Deceased	TRUE	FALSE
+577	926	Branch A	Oncology	25-06-2025	30-07-2025	Emergency	Transferred	FALSE	FALSE
+578	376	Branch B	Pediatrics	21-10-2025	21-10-2025	Scheduled	Recovered	TRUE	FALSE
+579	344	Branch B	Oncology	05-01-2026	05-01-2026	Emergency	Transferred	FALSE	TRUE
+580	443	Branch B	Oncology	21-12-2025	21-12-2025	Scheduled	Transferred	TRUE	TRUE
+581	579	Branch B	Orthopedics	14-12-2025	14-12-2025	Scheduled	Recovered	TRUE	FALSE
+582	75	Branch A	Pediatrics	21-07-2025	21-07-2025	Emergency	Recovered	FALSE	TRUE
+583	557	Branch A	Oncology	19-03-2025	02-01-2026	Emergency	Deceased	FALSE	FALSE
+584	772	Branch B	General Medicine	31-05-2025	04-10-2025	Scheduled	Deceased	TRUE	TRUE
+585	666	Branch A	Oncology	10-01-2026	10-01-2026	Emergency	Transferred	FALSE	TRUE
+586	155	Branch A	Pediatrics	08-07-2025	08-07-2025	Scheduled	Deceased	TRUE	TRUE
+587	430	Branch B	Emergency	26-05-2025	29-07-2025	Scheduled	Deceased	FALSE	FALSE
+588	363	Branch A	Pediatrics	12-05-2025	11-11-2025	Scheduled	Recovered	TRUE	FALSE
+589	448	Branch B	Orthopedics	16-04-2025	07-08-2025	Emergency	Recovered	FALSE	FALSE
+590	987	Branch B	Emergency	12-02-2025	30-03-2025	Scheduled	Deceased	TRUE	FALSE
+591	234	Branch A	General Medicine	23-02-2025	22-06-2025	Scheduled	Recovered	FALSE	TRUE
+592	563	Branch A	Cardiology	05-06-2025	20-11-2025	Scheduled	Deceased	TRUE	TRUE
+593	818	Branch B	Pediatrics	01-10-2025	01-10-2025	Scheduled	Recovered	TRUE	TRUE
+594	262	Branch B	Orthopedics	09-12-2025	09-12-2025	Scheduled	Recovered	FALSE	TRUE
+595	827	Branch A	General Medicine	09-03-2025	14-11-2025	Scheduled	Recovered	FALSE	FALSE
+596	125	Branch B	Emergency	21-09-2025	15-12-2025	Scheduled	Recovered	TRUE	TRUE
+597	911	Branch B	General Medicine	31-08-2025	11-12-2025	Scheduled	Deceased	TRUE	TRUE
+598	245	Branch B	Pediatrics	19-12-2025	11-01-2026	Scheduled	Transferred	TRUE	TRUE
+599	542	Branch A	Oncology	21-11-2025	26-12-2025	Scheduled	Recovered	TRUE	FALSE
+600	938	Branch B	Pediatrics	10-05-2025	12-11-2025	Scheduled	Deceased	FALSE	FALSE
+601	485	Branch A	Cardiology	22-01-2026	22-01-2026	Emergency	Deceased	TRUE	FALSE
+602	122	Branch B	Pediatrics	15-08-2025	08-12-2025	Scheduled	Recovered	TRUE	TRUE
+603	125	Branch A	Emergency	11-10-2025	02-01-2026	Scheduled	Transferred	TRUE	FALSE
+604	549	Branch B	Emergency	23-08-2025	21-01-2026	Scheduled	Recovered	FALSE	TRUE
+605	170	Branch A	Pediatrics	04-06-2025	16-06-2025	Emergency	Deceased	TRUE	TRUE
+606	124	Branch A	Emergency	16-04-2025	16-04-2025	Scheduled	Transferred	FALSE	TRUE
+607	869	Branch A	Oncology	01-01-2026	01-01-2026	Emergency	Deceased	FALSE	FALSE
+608	35	Branch B	General Medicine	18-01-2026	18-01-2026	Scheduled	Recovered	FALSE	FALSE
+609	87	Branch B	Pediatrics	02-02-2025	25-01-2026	Scheduled	Transferred	FALSE	TRUE
+610	646	Branch B	Oncology	26-03-2025	08-07-2025	Emergency	Deceased	FALSE	TRUE
+611	708	Branch A	General Medicine	05-09-2025	05-09-2025	Scheduled	Deceased	FALSE	FALSE
+612	786	Branch B	General Medicine	23-05-2025	29-07-2025	Emergency	Deceased	FALSE	FALSE
+613	201	Branch A	Oncology	01-05-2025	01-05-2025	Emergency	Recovered	TRUE	FALSE
+614	369	Branch B	Orthopedics	22-01-2026	22-01-2026	Scheduled	Transferred	TRUE	TRUE
+615	797	Branch A	Pediatrics	23-10-2025	23-10-2025	Scheduled	Recovered	FALSE	TRUE
+616	77	Branch A	General Medicine	25-09-2025	16-11-2025	Scheduled	Recovered	TRUE	TRUE
+617	59	Branch A	General Medicine	25-02-2025	02-01-2026	Scheduled	Recovered	TRUE	FALSE
+618	431	Branch B	Emergency	12-11-2025	12-11-2025	Emergency	Transferred	FALSE	FALSE
+619	638	Branch B	General Medicine	07-06-2025	07-06-2025	Emergency	Recovered	TRUE	FALSE
+620	500	Branch B	Oncology	03-04-2025	13-04-2025	Scheduled	Recovered	FALSE	TRUE
+621	913	Branch A	General Medicine	21-09-2025	21-12-2025	Emergency	Recovered	TRUE	TRUE
+622	109	Branch A	Orthopedics	09-04-2025	09-04-2025	Emergency	Recovered	FALSE	FALSE
+623	736	Branch B	Pediatrics	25-09-2025	25-09-2025	Scheduled	Deceased	FALSE	TRUE
+624	278	Branch B	Pediatrics	07-01-2026	07-01-2026	Emergency	Recovered	TRUE	FALSE
+625	68	Branch B	General Medicine	29-10-2025	29-10-2025	Emergency	Deceased	TRUE	TRUE
+626	69	Branch A	Cardiology	13-11-2025	13-11-2025	Scheduled	Recovered	FALSE	FALSE
+627	165	Branch A	Cardiology	01-12-2025	01-12-2025	Emergency	Transferred	FALSE	TRUE
+628	489	Branch A	Oncology	12-07-2025	20-09-2025	Scheduled	Deceased	FALSE	TRUE
+629	305	Branch A	Cardiology	14-09-2025	14-09-2025	Emergency	Deceased	TRUE	FALSE
+630	909	Branch A	Oncology	10-12-2025	10-12-2025	Scheduled	Deceased	TRUE	FALSE
+631	674	Branch B	Emergency	16-10-2025	16-10-2025	Emergency	Deceased	TRUE	FALSE
+632	365	Branch A	Oncology	06-09-2025	06-09-2025	Emergency	Transferred	TRUE	FALSE
+633	854	Branch A	Cardiology	07-11-2025	07-11-2025	Scheduled	Recovered	FALSE	FALSE
+634	821	Branch A	General Medicine	16-09-2025	17-11-2025	Scheduled	Deceased	FALSE	TRUE
+635	379	Branch A	Emergency	22-04-2025	02-12-2025	Scheduled	Transferred	FALSE	FALSE
+636	343	Branch A	Cardiology	01-10-2025	01-10-2025	Scheduled	Deceased	FALSE	FALSE
+637	947	Branch B	Oncology	18-09-2025	18-09-2025	Emergency	Recovered	TRUE	FALSE
+638	899	Branch A	Orthopedics	12-06-2025	12-06-2025	Emergency	Deceased	FALSE	TRUE
+639	554	Branch A	Pediatrics	06-06-2025	06-06-2025	Emergency	Transferred	FALSE	FALSE
+640	354	Branch A	Cardiology	23-12-2025	23-12-2025	Scheduled	Recovered	TRUE	FALSE
+641	416	Branch B	Oncology	21-06-2025	21-06-2025	Emergency	Transferred	TRUE	FALSE
+642	109	Branch B	Emergency	24-10-2025	11-01-2026	Emergency	Recovered	FALSE	TRUE
+643	563	Branch B	Cardiology	06-10-2025	06-10-2025	Scheduled	Recovered	TRUE	TRUE
+644	762	Branch A	Cardiology	17-12-2025	17-12-2025	Scheduled	Recovered	FALSE	FALSE
+645	497	Branch B	Pediatrics	02-06-2025	14-09-2025	Emergency	Deceased	TRUE	TRUE
+646	341	Branch A	Oncology	20-06-2025	04-01-2026	Scheduled	Transferred	TRUE	FALSE
+647	942	Branch A	Orthopedics	13-09-2025	13-09-2025	Emergency	Transferred	FALSE	TRUE
+648	383	Branch B	Emergency	11-03-2025	06-10-2025	Emergency	Transferred	TRUE	FALSE
+649	533	Branch A	Oncology	26-06-2025	07-12-2025	Scheduled	Recovered	FALSE	TRUE
+650	300	Branch A	Emergency	31-05-2025	14-09-2025	Emergency	Deceased	TRUE	FALSE
+651	139	Branch A	Cardiology	19-06-2025	31-08-2025	Scheduled	Recovered	TRUE	FALSE
+652	359	Branch B	Pediatrics	21-07-2025	21-07-2025	Scheduled	Transferred	TRUE	TRUE
+653	836	Branch A	Pediatrics	13-07-2025	13-07-2025	Emergency	Deceased	TRUE	FALSE
+654	499	Branch A	General Medicine	03-11-2025	03-11-2025	Emergency	Deceased	TRUE	FALSE
+655	385	Branch B	Orthopedics	13-03-2025	30-03-2025	Emergency	Deceased	FALSE	FALSE
+656	604	Branch A	Pediatrics	11-04-2025	26-07-2025	Scheduled	Transferred	TRUE	FALSE
+657	959	Branch A	Cardiology	18-04-2025	08-09-2025	Emergency	Deceased	FALSE	TRUE
+658	280	Branch B	Orthopedics	29-05-2025	29-05-2025	Scheduled	Deceased	TRUE	FALSE
+659	637	Branch A	Oncology	15-08-2025	15-08-2025	Scheduled	Recovered	FALSE	TRUE
+660	483	Branch A	Pediatrics	21-01-2026	21-01-2026	Emergency	Recovered	TRUE	TRUE
+661	909	Branch A	Orthopedics	19-04-2025	13-01-2026	Scheduled	Deceased	FALSE	TRUE
+662	111	Branch A	Cardiology	27-01-2026	27-01-2026	Emergency	Deceased	FALSE	TRUE
+663	866	Branch A	General Medicine	20-05-2025	07-10-2025	Emergency	Recovered	TRUE	FALSE
+664	139	Branch B	Emergency	04-03-2025	27-10-2025	Emergency	Recovered	TRUE	FALSE
+665	996	Branch B	Emergency	31-08-2025	07-01-2026	Emergency	Recovered	TRUE	TRUE
+666	435	Branch B	Cardiology	27-08-2025	27-08-2025	Emergency	Transferred	FALSE	FALSE
+667	509	Branch B	Cardiology	19-07-2025	19-07-2025	Emergency	Transferred	FALSE	TRUE
+668	273	Branch A	Emergency	04-11-2025	04-11-2025	Emergency	Recovered	TRUE	FALSE
+669	99	Branch A	General Medicine	26-09-2025	26-09-2025	Scheduled	Deceased	TRUE	FALSE
+670	764	Branch A	Orthopedics	31-08-2025	03-12-2025	Emergency	Recovered	FALSE	FALSE
+671	850	Branch A	Emergency	03-03-2025	03-03-2025	Scheduled	Transferred	FALSE	TRUE
+672	104	Branch A	Cardiology	16-05-2025	16-05-2025	Scheduled	Deceased	TRUE	TRUE
+673	214	Branch B	Pediatrics	03-09-2025	03-09-2025	Scheduled	Transferred	FALSE	FALSE
+674	761	Branch B	Oncology	18-08-2025	18-08-2025	Emergency	Deceased	TRUE	TRUE
+675	664	Branch A	General Medicine	26-11-2025	26-11-2025	Scheduled	Transferred	TRUE	TRUE
+676	762	Branch A	General Medicine	22-01-2026	22-01-2026	Scheduled	Deceased	TRUE	FALSE
+677	787	Branch A	Pediatrics	10-02-2025	10-06-2025	Emergency	Deceased	FALSE	TRUE
+678	165	Branch B	Pediatrics	21-11-2025	21-11-2025	Emergency	Deceased	FALSE	FALSE
+679	999	Branch A	Cardiology	13-08-2025	13-08-2025	Scheduled	Deceased	FALSE	FALSE
+680	853	Branch A	Emergency	02-10-2025	02-10-2025	Emergency	Transferred	FALSE	FALSE
+681	520	Branch A	Orthopedics	03-02-2025	03-02-2025	Emergency	Transferred	TRUE	TRUE
+682	284	Branch B	General Medicine	30-07-2025	12-10-2025	Emergency	Deceased	FALSE	FALSE
+683	517	Branch A	General Medicine	02-07-2025	08-09-2025	Emergency	Deceased	TRUE	FALSE
+684	657	Branch B	Pediatrics	18-08-2025	18-08-2025	Scheduled	Transferred	TRUE	TRUE
+685	613	Branch B	Emergency	02-09-2025	02-09-2025	Emergency	Deceased	TRUE	TRUE
+686	164	Branch B	General Medicine	02-11-2025	02-11-2025	Emergency	Deceased	FALSE	TRUE
+687	886	Branch B	Orthopedics	06-11-2025	06-11-2025	Emergency	Deceased	TRUE	TRUE
+688	659	Branch B	Pediatrics	05-12-2025	26-01-2026	Scheduled	Recovered	TRUE	FALSE
+689	64	Branch B	Orthopedics	23-05-2025	28-05-2025	Scheduled	Deceased	FALSE	TRUE
+690	91	Branch A	Emergency	07-10-2025	14-10-2025	Emergency	Recovered	TRUE	TRUE
+691	117	Branch A	General Medicine	23-05-2025	13-11-2025	Emergency	Deceased	FALSE	TRUE
+692	866	Branch A	Oncology	19-06-2025	08-01-2026	Scheduled	Transferred	FALSE	TRUE
+693	267	Branch B	General Medicine	11-09-2025	11-09-2025	Emergency	Recovered	FALSE	FALSE
+694	822	Branch A	Emergency	06-10-2025	06-10-2025	Emergency	Recovered	TRUE	TRUE
+695	685	Branch B	General Medicine	14-02-2025	22-08-2025	Scheduled	Deceased	FALSE	FALSE
+696	559	Branch B	General Medicine	18-08-2025	18-08-2025	Emergency	Deceased	FALSE	TRUE
+697	140	Branch B	Cardiology	22-07-2025	11-09-2025	Emergency	Recovered	FALSE	FALSE
+698	246	Branch A	General Medicine	08-01-2026	08-01-2026	Scheduled	Transferred	FALSE	FALSE
+699	661	Branch B	General Medicine	13-01-2026	13-01-2026	Scheduled	Transferred	TRUE	TRUE
+700	758	Branch B	Orthopedics	26-08-2025	26-08-2025	Emergency	Deceased	FALSE	FALSE
+701	395	Branch A	Oncology	25-04-2025	10-07-2025	Scheduled	Transferred	TRUE	TRUE
+702	487	Branch A	Orthopedics	27-09-2025	21-11-2025	Emergency	Transferred	FALSE	FALSE
+703	476	Branch B	Orthopedics	06-04-2025	07-09-2025	Emergency	Deceased	TRUE	FALSE
+704	517	Branch B	Pediatrics	15-12-2025	15-12-2025	Emergency	Transferred	FALSE	FALSE
+705	977	Branch A	Cardiology	31-10-2025	31-10-2025	Scheduled	Deceased	TRUE	TRUE
+706	184	Branch A	Orthopedics	13-02-2025	29-01-2026	Scheduled	Recovered	FALSE	FALSE
+707	20	Branch A	Emergency	20-08-2025	24-12-2025	Emergency	Deceased	TRUE	TRUE
+708	937	Branch B	Emergency	30-11-2025	30-11-2025	Emergency	Recovered	TRUE	FALSE
+709	558	Branch A	General Medicine	15-11-2025	15-11-2025	Scheduled	Recovered	TRUE	FALSE
+710	524	Branch A	Pediatrics	05-01-2026	05-01-2026	Scheduled	Transferred	FALSE	FALSE
+711	582	Branch A	Cardiology	13-02-2025	26-08-2025	Scheduled	Transferred	TRUE	FALSE
+712	529	Branch B	Cardiology	14-03-2025	14-03-2025	Emergency	Transferred	TRUE	FALSE
+713	883	Branch A	General Medicine	26-12-2025	26-12-2025	Scheduled	Deceased	TRUE	FALSE
+714	147	Branch A	Emergency	07-09-2025	07-09-2025	Scheduled	Transferred	TRUE	TRUE
+715	666	Branch A	Oncology	10-04-2025	13-12-2025	Emergency	Recovered	FALSE	TRUE
+716	304	Branch A	Pediatrics	24-09-2025	24-09-2025	Emergency	Transferred	TRUE	TRUE
+717	620	Branch A	General Medicine	04-05-2025	19-01-2026	Emergency	Transferred	TRUE	FALSE
+718	748	Branch B	Pediatrics	25-02-2025	04-08-2025	Scheduled	Deceased	TRUE	TRUE
+719	820	Branch B	Emergency	13-06-2025	13-06-2025	Emergency	Deceased	FALSE	FALSE
+720	864	Branch B	Emergency	13-08-2025	11-09-2025	Emergency	Recovered	TRUE	TRUE
+721	582	Branch A	Oncology	17-07-2025	17-07-2025	Emergency	Deceased	TRUE	TRUE
+722	695	Branch B	Oncology	19-05-2025	04-06-2025	Emergency	Transferred	TRUE	FALSE
+723	762	Branch B	Cardiology	20-09-2025	20-09-2025	Scheduled	Deceased	TRUE	FALSE
+724	228	Branch B	Pediatrics	17-07-2025	28-11-2025	Emergency	Recovered	FALSE	TRUE
+725	102	Branch A	Pediatrics	22-07-2025	24-08-2025	Scheduled	Transferred	TRUE	TRUE
+726	587	Branch A	Emergency	13-08-2025	26-10-2025	Scheduled	Recovered	TRUE	TRUE
+727	417	Branch B	Cardiology	22-06-2025	22-06-2025	Scheduled	Deceased	FALSE	TRUE
+728	958	Branch B	General Medicine	03-09-2025	03-09-2025	Emergency	Deceased	FALSE	FALSE
+729	216	Branch A	Pediatrics	09-06-2025	08-07-2025	Scheduled	Recovered	FALSE	TRUE
+730	407	Branch A	Cardiology	13-03-2025	23-07-2025	Emergency	Transferred	TRUE	FALSE
+731	399	Branch B	Cardiology	28-09-2025	28-09-2025	Emergency	Deceased	FALSE	FALSE
+732	923	Branch A	Emergency	09-02-2025	20-07-2025	Emergency	Deceased	TRUE	TRUE
+733	715	Branch B	Cardiology	03-11-2025	03-11-2025	Scheduled	Transferred	FALSE	FALSE
+734	704	Branch A	Oncology	26-02-2025	11-03-2025	Emergency	Deceased	TRUE	TRUE
+735	761	Branch B	Oncology	29-07-2025	19-10-2025	Emergency	Recovered	FALSE	FALSE
+736	499	Branch B	Orthopedics	25-05-2025	21-12-2025	Emergency	Deceased	TRUE	FALSE
+737	754	Branch A	Emergency	29-12-2025	29-12-2025	Scheduled	Deceased	FALSE	TRUE
+738	465	Branch B	General Medicine	07-03-2025	29-10-2025	Scheduled	Transferred	TRUE	FALSE
+739	691	Branch B	Orthopedics	30-12-2025	30-12-2025	Scheduled	Recovered	TRUE	FALSE
+740	949	Branch B	Oncology	20-02-2025	10-05-2025	Emergency	Transferred	TRUE	TRUE
+741	974	Branch A	Orthopedics	15-02-2025	28-07-2025	Scheduled	Deceased	TRUE	FALSE
+742	731	Branch A	Emergency	06-06-2025	29-07-2025	Emergency	Deceased	TRUE	FALSE
+743	82	Branch A	Emergency	13-05-2025	27-12-2025	Emergency	Transferred	TRUE	TRUE
+744	604	Branch B	Cardiology	10-02-2025	16-04-2025	Scheduled	Transferred	TRUE	TRUE
+745	947	Branch A	Pediatrics	15-12-2025	15-12-2025	Emergency	Transferred	TRUE	FALSE
+746	687	Branch B	Cardiology	19-04-2025	19-04-2025	Scheduled	Recovered	FALSE	FALSE
+747	751	Branch B	Emergency	02-06-2025	02-06-2025	Emergency	Deceased	TRUE	FALSE
+748	772	Branch A	Oncology	05-04-2025	11-06-2025	Scheduled	Transferred	TRUE	TRUE
+749	903	Branch A	General Medicine	30-09-2025	30-09-2025	Emergency	Deceased	FALSE	FALSE
+750	365	Branch B	Oncology	08-01-2026	08-01-2026	Emergency	Recovered	TRUE	FALSE
+751	163	Branch B	Cardiology	30-03-2025	05-12-2025	Emergency	Recovered	FALSE	FALSE
+752	48	Branch A	General Medicine	15-11-2025	15-11-2025	Emergency	Recovered	TRUE	FALSE
+753	511	Branch A	Emergency	22-05-2025	01-01-2026	Emergency	Recovered	FALSE	FALSE
+754	329	Branch A	Oncology	26-09-2025	26-09-2025	Scheduled	Deceased	FALSE	FALSE
+755	840	Branch B	Emergency	24-01-2026	24-01-2026	Emergency	Recovered	TRUE	TRUE
+756	116	Branch B	General Medicine	11-06-2025	18-12-2025	Scheduled	Recovered	FALSE	TRUE
+757	941	Branch B	General Medicine	07-08-2025	10-10-2025	Scheduled	Transferred	TRUE	FALSE
+758	849	Branch B	Oncology	26-04-2025	25-09-2025	Scheduled	Recovered	TRUE	FALSE
+759	337	Branch B	Emergency	07-12-2025	07-12-2025	Emergency	Transferred	TRUE	TRUE
+760	881	Branch A	Orthopedics	07-12-2025	07-12-2025	Emergency	Recovered	TRUE	TRUE
+761	737	Branch A	Emergency	30-03-2025	17-09-2025	Emergency	Recovered	FALSE	TRUE
+762	864	Branch B	General Medicine	24-04-2025	14-01-2026	Scheduled	Transferred	TRUE	FALSE
+763	840	Branch B	Emergency	09-07-2025	16-11-2025	Emergency	Recovered	FALSE	FALSE
+764	147	Branch A	Cardiology	27-03-2025	26-12-2025	Emergency	Deceased	FALSE	FALSE
+765	575	Branch A	Orthopedics	23-11-2025	22-12-2025	Scheduled	Deceased	TRUE	FALSE
+766	806	Branch A	Pediatrics	13-02-2025	16-12-2025	Scheduled	Recovered	TRUE	TRUE
+767	323	Branch A	Cardiology	09-07-2025	15-07-2025	Scheduled	Deceased	TRUE	TRUE
+768	443	Branch B	Pediatrics	21-11-2025	18-12-2025	Scheduled	Transferred	TRUE	TRUE
+769	837	Branch A	Oncology	12-01-2026	12-01-2026	Scheduled	Recovered	FALSE	TRUE
+770	13	Branch B	Pediatrics	11-08-2025	11-08-2025	Scheduled	Recovered	TRUE	FALSE
+771	943	Branch A	Emergency	22-08-2025	13-09-2025	Emergency	Transferred	FALSE	FALSE
+772	494	Branch A	Pediatrics	12-05-2025	12-05-2025	Scheduled	Transferred	TRUE	TRUE
+773	701	Branch A	General Medicine	10-03-2025	28-09-2025	Emergency	Transferred	TRUE	TRUE
+774	287	Branch B	Cardiology	30-11-2025	30-11-2025	Emergency	Recovered	TRUE	TRUE
+775	720	Branch B	Cardiology	19-01-2026	19-01-2026	Emergency	Transferred	TRUE	TRUE
+776	114	Branch A	Pediatrics	18-12-2025	18-12-2025	Scheduled	Transferred	FALSE	TRUE
+777	480	Branch B	Cardiology	04-06-2025	20-06-2025	Emergency	Deceased	FALSE	FALSE
+778	22	Branch B	General Medicine	24-03-2025	29-11-2025	Scheduled	Deceased	TRUE	FALSE
+779	349	Branch A	Cardiology	22-01-2026	22-01-2026	Scheduled	Recovered	FALSE	TRUE
+780	726	Branch A	Pediatrics	04-07-2025	30-07-2025	Emergency	Deceased	FALSE	TRUE
+781	683	Branch B	Orthopedics	16-01-2026	16-01-2026	Scheduled	Deceased	TRUE	TRUE
+782	835	Branch B	Orthopedics	04-12-2025	04-12-2025	Emergency	Transferred	TRUE	FALSE
+783	566	Branch B	Oncology	02-04-2025	08-07-2025	Emergency	Transferred	FALSE	FALSE
+784	906	Branch A	Cardiology	16-11-2025	16-11-2025	Scheduled	Deceased	FALSE	FALSE
+785	810	Branch A	Pediatrics	21-02-2025	19-09-2025	Emergency	Deceased	FALSE	TRUE
+786	320	Branch B	Cardiology	27-07-2025	27-07-2025	Emergency	Deceased	FALSE	FALSE
+787	126	Branch A	Emergency	30-10-2025	30-10-2025	Emergency	Recovered	TRUE	TRUE
+788	277	Branch A	General Medicine	07-09-2025	07-09-2025	Scheduled	Recovered	TRUE	FALSE
+789	976	Branch B	Cardiology	04-01-2026	04-01-2026	Emergency	Recovered	FALSE	FALSE
+790	204	Branch B	Cardiology	08-08-2025	08-08-2025	Scheduled	Deceased	TRUE	FALSE
+791	194	Branch A	Orthopedics	07-03-2025	27-12-2025	Scheduled	Deceased	FALSE	TRUE
+792	681	Branch A	General Medicine	17-10-2025	17-10-2025	Emergency	Recovered	FALSE	TRUE
+793	664	Branch B	Pediatrics	28-12-2025	28-12-2025	Emergency	Recovered	TRUE	FALSE
+794	547	Branch A	Cardiology	24-07-2025	01-12-2025	Scheduled	Deceased	FALSE	TRUE
+795	696	Branch A	Orthopedics	06-02-2025	17-10-2025	Scheduled	Transferred	FALSE	TRUE
+796	286	Branch B	Oncology	03-09-2025	03-09-2025	Emergency	Recovered	TRUE	TRUE
+797	57	Branch B	General Medicine	08-10-2025	08-10-2025	Emergency	Deceased	TRUE	TRUE
+798	734	Branch A	Orthopedics	26-03-2025	24-11-2025	Scheduled	Deceased	FALSE	TRUE
+799	303	Branch A	Orthopedics	09-09-2025	10-11-2025	Scheduled	Transferred	FALSE	TRUE
+800	163	Branch A	Orthopedics	04-08-2025	04-08-2025	Scheduled	Deceased	TRUE	TRUE
+801	19	Branch B	Cardiology	22-12-2025	22-12-2025	Scheduled	Deceased	FALSE	FALSE
+802	370	Branch A	Cardiology	23-09-2025	19-11-2025	Scheduled	Recovered	FALSE	TRUE
+803	264	Branch A	Oncology	28-01-2026	28-01-2026	Emergency	Recovered	TRUE	TRUE
+804	794	Branch B	Emergency	19-04-2025	07-05-2025	Scheduled	Transferred	TRUE	FALSE
+805	113	Branch B	Emergency	10-09-2025	10-09-2025	Scheduled	Transferred	TRUE	FALSE
+806	488	Branch A	Emergency	01-05-2025	06-12-2025	Emergency	Deceased	TRUE	FALSE
+807	327	Branch B	General Medicine	25-10-2025	25-10-2025	Emergency	Recovered	TRUE	FALSE
+808	542	Branch B	General Medicine	30-12-2025	30-12-2025	Scheduled	Transferred	TRUE	TRUE
+809	647	Branch A	Oncology	18-06-2025	18-06-2025	Scheduled	Transferred	FALSE	FALSE
+810	579	Branch B	General Medicine	12-12-2025	12-12-2025	Emergency	Transferred	FALSE	FALSE
+811	65	Branch B	Emergency	02-11-2025	02-11-2025	Scheduled	Deceased	TRUE	TRUE
+812	292	Branch A	Emergency	05-10-2025	05-10-2025	Scheduled	Recovered	TRUE	TRUE
+813	25	Branch B	Orthopedics	26-09-2025	26-09-2025	Emergency	Transferred	FALSE	TRUE
+814	549	Branch A	General Medicine	11-09-2025	11-09-2025	Scheduled	Recovered	FALSE	FALSE
+815	1	Branch A	Cardiology	30-11-2025	30-11-2025	Emergency	Transferred	FALSE	TRUE
+816	911	Branch B	Cardiology	17-06-2025	27-12-2025	Emergency	Transferred	TRUE	FALSE
+817	549	Branch B	Orthopedics	15-07-2025	15-07-2025	Emergency	Recovered	TRUE	TRUE
+818	141	Branch B	Orthopedics	05-06-2025	05-06-2025	Emergency	Recovered	FALSE	TRUE
+819	744	Branch A	Orthopedics	16-03-2025	06-06-2025	Scheduled	Recovered	TRUE	FALSE
+820	648	Branch B	Cardiology	22-06-2025	28-01-2026	Emergency	Deceased	TRUE	TRUE
+821	901	Branch A	Emergency	18-09-2025	18-09-2025	Scheduled	Transferred	TRUE	TRUE
+822	188	Branch B	Orthopedics	04-06-2025	12-09-2025	Scheduled	Deceased	FALSE	TRUE
+823	128	Branch B	Oncology	25-09-2025	26-10-2025	Scheduled	Recovered	FALSE	TRUE
+824	201	Branch B	Orthopedics	18-11-2025	18-11-2025	Scheduled	Transferred	TRUE	TRUE
+825	127	Branch A	Pediatrics	09-12-2025	09-12-2025	Scheduled	Deceased	TRUE	FALSE
+826	257	Branch B	Orthopedics	08-01-2026	08-01-2026	Emergency	Transferred	TRUE	FALSE
+827	676	Branch B	Cardiology	13-08-2025	13-08-2025	Emergency	Deceased	TRUE	TRUE
+828	547	Branch A	General Medicine	22-07-2025	09-08-2025	Emergency	Recovered	TRUE	FALSE
+829	194	Branch A	Orthopedics	14-02-2025	24-06-2025	Emergency	Deceased	FALSE	FALSE
+830	703	Branch B	General Medicine	11-10-2025	11-10-2025	Scheduled	Transferred	TRUE	FALSE
+831	104	Branch B	Pediatrics	16-07-2025	28-08-2025	Emergency	Transferred	TRUE	TRUE
+832	535	Branch B	Oncology	04-05-2025	23-07-2025	Scheduled	Transferred	TRUE	TRUE
+833	265	Branch A	General Medicine	07-10-2025	13-01-2026	Scheduled	Transferred	FALSE	TRUE
+834	802	Branch A	Emergency	19-05-2025	03-12-2025	Emergency	Recovered	FALSE	FALSE
+835	942	Branch A	Orthopedics	31-07-2025	31-07-2025	Emergency	Deceased	TRUE	FALSE
+836	974	Branch A	Pediatrics	12-06-2025	20-12-2025	Emergency	Recovered	FALSE	TRUE
+837	384	Branch B	Pediatrics	24-07-2025	28-12-2025	Emergency	Recovered	FALSE	TRUE
+838	260	Branch A	General Medicine	23-06-2025	21-07-2025	Scheduled	Recovered	FALSE	FALSE
+839	414	Branch A	Oncology	02-12-2025	02-12-2025	Scheduled	Transferred	FALSE	FALSE
+840	991	Branch A	Cardiology	25-01-2026	25-01-2026	Emergency	Transferred	FALSE	TRUE
+841	358	Branch B	Orthopedics	21-06-2025	21-06-2025	Scheduled	Transferred	FALSE	FALSE
+842	75	Branch B	Pediatrics	11-11-2025	12-11-2025	Scheduled	Deceased	TRUE	FALSE
+843	355	Branch A	Oncology	05-02-2025	13-01-2026	Scheduled	Transferred	FALSE	FALSE
+844	584	Branch A	Emergency	22-10-2025	22-10-2025	Emergency	Deceased	FALSE	FALSE
+845	771	Branch B	Pediatrics	08-05-2025	25-06-2025	Scheduled	Transferred	TRUE	FALSE
+846	910	Branch B	Oncology	15-03-2025	09-06-2025	Emergency	Transferred	TRUE	FALSE
+847	188	Branch B	Cardiology	03-06-2025	02-01-2026	Emergency	Recovered	TRUE	FALSE
+848	973	Branch B	Cardiology	27-08-2025	05-12-2025	Scheduled	Recovered	TRUE	TRUE
+849	685	Branch B	Pediatrics	08-10-2025	08-10-2025	Scheduled	Recovered	FALSE	TRUE
+850	992	Branch B	Pediatrics	11-11-2025	11-11-2025	Emergency	Deceased	FALSE	FALSE
+851	290	Branch B	General Medicine	03-06-2025	03-06-2025	Scheduled	Deceased	FALSE	FALSE
+852	45	Branch B	Orthopedics	19-01-2026	19-01-2026	Scheduled	Transferred	FALSE	FALSE
+853	573	Branch A	Oncology	01-10-2025	05-01-2026	Emergency	Deceased	TRUE	TRUE
+854	83	Branch A	Pediatrics	27-12-2025	27-12-2025	Emergency	Transferred	FALSE	TRUE
+855	123	Branch A	Orthopedics	30-01-2026	30-01-2026	Emergency	Deceased	FALSE	FALSE
+856	358	Branch A	General Medicine	09-10-2025	09-10-2025	Emergency	Deceased	TRUE	TRUE
+857	528	Branch A	Orthopedics	17-09-2025	01-01-2026	Scheduled	Deceased	FALSE	FALSE
+858	66	Branch A	Pediatrics	08-02-2025	23-01-2026	Scheduled	Recovered	FALSE	FALSE
+859	936	Branch B	Cardiology	19-03-2025	05-01-2026	Emergency	Deceased	FALSE	FALSE
+860	657	Branch B	Oncology	30-06-2025	19-08-2025	Emergency	Recovered	FALSE	FALSE
+861	375	Branch A	Oncology	24-05-2025	24-05-2025	Emergency	Recovered	TRUE	FALSE
+862	162	Branch A	Cardiology	26-08-2025	01-12-2025	Scheduled	Deceased	TRUE	FALSE
+863	746	Branch B	Pediatrics	20-01-2026	28-01-2026	Emergency	Transferred	TRUE	FALSE
+864	380	Branch B	Oncology	04-06-2025	04-06-2025	Scheduled	Transferred	TRUE	TRUE
+865	656	Branch B	Pediatrics	06-07-2025	08-07-2025	Emergency	Transferred	TRUE	FALSE
+866	358	Branch A	General Medicine	05-01-2026	05-01-2026	Emergency	Deceased	FALSE	TRUE
+867	188	Branch B	Pediatrics	24-11-2025	24-11-2025	Emergency	Transferred	FALSE	FALSE
+868	322	Branch A	Orthopedics	07-08-2025	26-12-2025	Scheduled	Recovered	TRUE	FALSE
+869	450	Branch A	Cardiology	30-09-2025	30-09-2025	Scheduled	Transferred	TRUE	TRUE
+870	474	Branch B	Pediatrics	10-11-2025	10-11-2025	Scheduled	Deceased	TRUE	TRUE
+871	13	Branch B	General Medicine	29-10-2025	09-01-2026	Emergency	Transferred	FALSE	FALSE
+872	184	Branch A	Emergency	26-07-2025	25-01-2026	Scheduled	Recovered	TRUE	TRUE
+873	111	Branch B	Cardiology	05-09-2025	16-01-2026	Scheduled	Deceased	FALSE	FALSE
+874	927	Branch B	Oncology	08-11-2025	08-11-2025	Emergency	Transferred	FALSE	FALSE
+875	508	Branch A	Orthopedics	19-07-2025	19-07-2025	Emergency	Deceased	FALSE	TRUE
+876	290	Branch B	Oncology	30-07-2025	27-12-2025	Scheduled	Deceased	FALSE	TRUE
+877	295	Branch A	General Medicine	25-01-2026	25-01-2026	Scheduled	Deceased	TRUE	TRUE
+878	451	Branch A	General Medicine	20-09-2025	20-09-2025	Scheduled	Transferred	FALSE	TRUE
+879	904	Branch B	Oncology	18-06-2025	18-10-2025	Scheduled	Deceased	FALSE	FALSE
+880	215	Branch A	Cardiology	06-07-2025	04-08-2025	Emergency	Transferred	TRUE	TRUE
+881	974	Branch A	Oncology	08-06-2025	08-06-2025	Emergency	Recovered	FALSE	TRUE
+882	632	Branch B	Pediatrics	29-05-2025	04-08-2025	Emergency	Transferred	FALSE	TRUE
+883	894	Branch B	Oncology	02-04-2025	08-07-2025	Scheduled	Recovered	FALSE	TRUE
+884	567	Branch B	Orthopedics	09-05-2025	09-05-2025	Scheduled	Transferred	TRUE	TRUE
+885	27	Branch A	Orthopedics	11-07-2025	11-07-2025	Emergency	Deceased	FALSE	FALSE
+886	630	Branch A	Emergency	02-04-2025	24-07-2025	Emergency	Transferred	FALSE	FALSE
+887	733	Branch B	Orthopedics	01-11-2025	01-11-2025	Scheduled	Deceased	TRUE	TRUE
+888	231	Branch A	Oncology	19-01-2026	19-01-2026	Scheduled	Recovered	TRUE	TRUE
+889	565	Branch B	Orthopedics	05-05-2025	26-05-2025	Emergency	Transferred	FALSE	FALSE
+890	807	Branch B	Cardiology	09-05-2025	09-05-2025	Emergency	Deceased	FALSE	TRUE
+891	321	Branch A	Orthopedics	21-05-2025	21-05-2025	Emergency	Recovered	TRUE	FALSE
+892	913	Branch B	Pediatrics	05-10-2025	05-10-2025	Scheduled	Recovered	FALSE	FALSE
+893	233	Branch A	Cardiology	21-06-2025	01-07-2025	Scheduled	Transferred	TRUE	TRUE
+894	670	Branch A	Emergency	28-11-2025	28-11-2025	Scheduled	Recovered	FALSE	FALSE
+895	437	Branch B	Pediatrics	26-10-2025	26-10-2025	Scheduled	Deceased	TRUE	TRUE
+896	781	Branch A	Oncology	02-12-2025	02-12-2025	Scheduled	Recovered	FALSE	TRUE
+897	533	Branch B	Oncology	24-06-2025	27-10-2025	Scheduled	Recovered	TRUE	FALSE
+898	403	Branch A	Oncology	23-03-2025	23-03-2025	Emergency	Deceased	TRUE	FALSE
+899	53	Branch A	Pediatrics	10-05-2025	04-01-2026	Emergency	Recovered	TRUE	TRUE
+900	787	Branch A	Pediatrics	01-07-2025	22-07-2025	Scheduled	Recovered	TRUE	FALSE
+901	313	Branch B	Pediatrics	27-05-2025	13-12-2025	Emergency	Recovered	TRUE	TRUE
+902	281	Branch A	Cardiology	03-08-2025	03-08-2025	Scheduled	Recovered	FALSE	FALSE
+903	726	Branch B	General Medicine	02-05-2025	02-12-2025	Emergency	Deceased	FALSE	FALSE
+904	31	Branch A	Cardiology	04-07-2025	11-08-2025	Scheduled	Recovered	TRUE	TRUE
+905	337	Branch A	Oncology	07-02-2025	19-04-2025	Emergency	Deceased	FALSE	TRUE
+906	183	Branch B	General Medicine	28-01-2026	28-01-2026	Emergency	Recovered	FALSE	TRUE
+907	23	Branch B	Orthopedics	31-10-2025	31-10-2025	Scheduled	Recovered	FALSE	FALSE
+908	544	Branch B	Oncology	05-04-2025	20-01-2026	Scheduled	Recovered	FALSE	TRUE
+909	446	Branch B	Emergency	20-06-2025	16-12-2025	Emergency	Recovered	FALSE	TRUE
+910	74	Branch B	Cardiology	23-02-2025	25-04-2025	Emergency	Deceased	FALSE	FALSE
+911	10	Branch A	Pediatrics	27-02-2025	12-09-2025	Scheduled	Deceased	TRUE	FALSE
+912	484	Branch A	Cardiology	10-11-2025	10-11-2025	Emergency	Deceased	FALSE	TRUE
+913	456	Branch B	Pediatrics	29-06-2025	29-08-2025	Scheduled	Transferred	FALSE	TRUE
+914	566	Branch A	General Medicine	23-01-2026	23-01-2026	Scheduled	Recovered	FALSE	TRUE
+915	564	Branch A	Emergency	05-04-2025	12-01-2026	Emergency	Recovered	TRUE	TRUE
+916	660	Branch A	General Medicine	23-12-2025	23-12-2025	Scheduled	Deceased	FALSE	FALSE
+917	160	Branch B	Emergency	09-10-2025	09-10-2025	Emergency	Transferred	FALSE	FALSE
+918	882	Branch A	Cardiology	24-03-2025	09-12-2025	Emergency	Recovered	FALSE	TRUE
+919	14	Branch A	Pediatrics	06-02-2025	25-06-2025	Scheduled	Deceased	TRUE	TRUE
+920	178	Branch A	General Medicine	20-11-2025	20-11-2025	Emergency	Recovered	FALSE	TRUE
+921	412	Branch B	Emergency	25-06-2025	25-06-2025	Scheduled	Recovered	TRUE	FALSE
+922	878	Branch A	Oncology	28-09-2025	31-10-2025	Scheduled	Deceased	FALSE	TRUE
+923	53	Branch A	Oncology	03-10-2025	03-10-2025	Scheduled	Deceased	TRUE	TRUE
+924	408	Branch B	General Medicine	13-09-2025	13-09-2025	Emergency	Recovered	TRUE	FALSE
+925	847	Branch B	Pediatrics	24-07-2025	28-09-2025	Scheduled	Recovered	TRUE	FALSE
+926	22	Branch A	General Medicine	05-05-2025	10-05-2025	Emergency	Deceased	FALSE	TRUE
+927	30	Branch A	Cardiology	26-02-2025	07-08-2025	Scheduled	Recovered	TRUE	TRUE
+928	703	Branch B	Emergency	09-06-2025	13-01-2026	Scheduled	Recovered	TRUE	FALSE
+929	260	Branch B	Cardiology	02-10-2025	19-11-2025	Scheduled	Deceased	TRUE	TRUE
+930	205	Branch B	Oncology	30-03-2025	13-09-2025	Emergency	Recovered	TRUE	TRUE
+931	59	Branch B	Emergency	05-03-2025	24-09-2025	Emergency	Recovered	FALSE	FALSE
+932	471	Branch B	General Medicine	24-08-2025	24-08-2025	Scheduled	Transferred	FALSE	FALSE
+933	776	Branch B	Cardiology	09-10-2025	09-10-2025	Scheduled	Deceased	FALSE	FALSE
+934	466	Branch B	Orthopedics	09-03-2025	15-10-2025	Emergency	Transferred	FALSE	TRUE
+935	12	Branch A	Pediatrics	22-11-2025	22-11-2025	Emergency	Transferred	TRUE	FALSE
+936	631	Branch B	Pediatrics	19-12-2025	19-12-2025	Emergency	Transferred	FALSE	FALSE
+937	927	Branch B	Orthopedics	17-01-2026	17-01-2026	Scheduled	Recovered	TRUE	TRUE
+938	974	Branch A	Oncology	27-02-2025	13-05-2025	Emergency	Recovered	FALSE	TRUE
+939	290	Branch B	Emergency	18-04-2025	06-12-2025	Scheduled	Transferred	FALSE	FALSE
+940	850	Branch B	Pediatrics	17-04-2025	17-04-2025	Emergency	Transferred	FALSE	FALSE
+941	760	Branch A	Orthopedics	15-11-2025	15-11-2025	Scheduled	Transferred	TRUE	TRUE
+942	354	Branch B	General Medicine	05-07-2025	05-07-2025	Scheduled	Recovered	FALSE	TRUE
+943	639	Branch A	Orthopedics	15-03-2025	25-12-2025	Scheduled	Transferred	FALSE	FALSE
+944	75	Branch A	Oncology	07-06-2025	04-10-2025	Emergency	Transferred	FALSE	FALSE
+945	873	Branch A	Oncology	01-04-2025	09-08-2025	Emergency	Deceased	TRUE	TRUE
+946	716	Branch A	Cardiology	12-11-2025	12-11-2025	Emergency	Deceased	FALSE	FALSE
+947	561	Branch B	Pediatrics	01-09-2025	01-09-2025	Scheduled	Recovered	FALSE	TRUE
+948	591	Branch A	Cardiology	07-12-2025	30-01-2026	Scheduled	Deceased	TRUE	FALSE
+949	441	Branch A	Orthopedics	02-12-2025	02-12-2025	Emergency	Deceased	TRUE	TRUE
+950	991	Branch B	Emergency	13-12-2025	13-12-2025	Scheduled	Deceased	FALSE	TRUE
+951	241	Branch A	Emergency	26-05-2025	25-06-2025	Scheduled	Recovered	FALSE	FALSE
+952	861	Branch A	Oncology	25-10-2025	25-10-2025	Scheduled	Deceased	FALSE	FALSE
+953	154	Branch A	Emergency	13-08-2025	13-08-2025	Emergency	Recovered	TRUE	TRUE
+954	786	Branch A	Emergency	18-09-2025	18-09-2025	Scheduled	Transferred	TRUE	FALSE
+955	96	Branch B	Emergency	14-09-2025	18-09-2025	Emergency	Deceased	TRUE	FALSE
+956	726	Branch A	Orthopedics	02-07-2025	20-10-2025	Emergency	Recovered	FALSE	FALSE
+957	294	Branch B	Emergency	28-11-2025	28-11-2025	Emergency	Deceased	TRUE	TRUE
+958	209	Branch B	General Medicine	07-09-2025	11-09-2025	Emergency	Transferred	FALSE	FALSE
+959	343	Branch A	Emergency	06-07-2025	06-07-2025	Emergency	Recovered	TRUE	FALSE
+960	88	Branch A	Emergency	18-11-2025	18-11-2025	Scheduled	Recovered	TRUE	TRUE
+961	818	Branch A	Cardiology	14-12-2025	14-12-2025	Emergency	Recovered	TRUE	FALSE
+962	776	Branch A	Orthopedics	02-03-2025	28-07-2025	Emergency	Transferred	FALSE	FALSE
+963	937	Branch B	Oncology	09-12-2025	09-12-2025	Emergency	Transferred	FALSE	TRUE
+964	390	Branch B	Cardiology	22-03-2025	31-08-2025	Scheduled	Transferred	FALSE	TRUE
+965	325	Branch B	Pediatrics	17-05-2025	17-05-2025	Scheduled	Recovered	FALSE	FALSE
+966	940	Branch A	Orthopedics	17-12-2025	17-12-2025	Scheduled	Transferred	TRUE	FALSE
+967	889	Branch B	General Medicine	19-05-2025	15-10-2025	Scheduled	Deceased	FALSE	TRUE
+968	832	Branch A	Orthopedics	15-06-2025	10-08-2025	Emergency	Transferred	TRUE	TRUE
+969	157	Branch A	Pediatrics	04-01-2026	04-01-2026	Emergency	Recovered	FALSE	FALSE
+970	668	Branch A	Pediatrics	13-03-2025	16-08-2025	Scheduled	Deceased	FALSE	FALSE
+971	651	Branch A	Pediatrics	21-04-2025	21-04-2025	Scheduled	Transferred	TRUE	FALSE
+972	633	Branch A	Oncology	02-06-2025	10-08-2025	Scheduled	Deceased	TRUE	TRUE
+973	577	Branch B	Emergency	29-04-2025	25-05-2025	Scheduled	Deceased	FALSE	FALSE
+974	619	Branch B	Orthopedics	09-11-2025	09-11-2025	Emergency	Recovered	FALSE	TRUE
+975	659	Branch A	Emergency	10-03-2025	13-07-2025	Scheduled	Deceased	TRUE	TRUE
+976	137	Branch B	Emergency	21-04-2025	21-04-2025	Scheduled	Deceased	TRUE	TRUE
+977	923	Branch A	General Medicine	01-02-2025	29-12-2025	Scheduled	Recovered	TRUE	FALSE
+978	674	Branch A	Pediatrics	28-08-2025	28-08-2025	Scheduled	Recovered	TRUE	FALSE
+979	428	Branch A	Oncology	18-09-2025	18-09-2025	Scheduled	Recovered	TRUE	FALSE
+980	452	Branch B	General Medicine	18-01-2026	18-01-2026	Scheduled	Deceased	FALSE	TRUE
+981	612	Branch A	Cardiology	01-12-2025	01-12-2025	Scheduled	Deceased	FALSE	FALSE
+982	850	Branch A	Oncology	28-09-2025	28-09-2025	Emergency	Deceased	FALSE	TRUE
+983	911	Branch B	Emergency	29-06-2025	29-09-2025	Emergency	Recovered	FALSE	TRUE
+984	819	Branch B	Oncology	16-02-2025	22-01-2026	Emergency	Transferred	TRUE	TRUE
+985	141	Branch B	Pediatrics	29-05-2025	29-05-2025	Emergency	Deceased	TRUE	TRUE
+986	83	Branch A	Cardiology	27-06-2025	27-01-2026	Emergency	Transferred	TRUE	TRUE
+987	177	Branch A	Pediatrics	27-01-2026	27-01-2026	Emergency	Recovered	FALSE	TRUE
+988	198	Branch B	Cardiology	24-06-2025	17-09-2025	Scheduled	Deceased	TRUE	FALSE
+989	624	Branch A	General Medicine	25-01-2026	25-01-2026	Scheduled	Transferred	TRUE	TRUE
+990	568	Branch B	Emergency	20-09-2025	20-09-2025	Emergency	Deceased	FALSE	FALSE
+991	972	Branch B	Cardiology	08-03-2025	12-03-2025	Scheduled	Deceased	FALSE	TRUE
+992	691	Branch A	Cardiology	17-01-2026	17-01-2026	Emergency	Deceased	FALSE	FALSE
+993	421	Branch A	Cardiology	30-05-2025	11-06-2025	Scheduled	Transferred	TRUE	FALSE
+994	401	Branch B	Oncology	15-06-2025	15-06-2025	Scheduled	Recovered	TRUE	FALSE
+995	698	Branch B	General Medicine	17-12-2025	17-12-2025	Scheduled	Deceased	FALSE	FALSE
+996	471	Branch B	Oncology	28-11-2025	28-11-2025	Scheduled	Recovered	FALSE	TRUE
+997	218	Branch B	Emergency	04-01-2026	04-01-2026	Scheduled	Recovered	TRUE	TRUE
+998	925	Branch A	Cardiology	12-05-2025	28-10-2025	Scheduled	Transferred	FALSE	TRUE
+999	929	Branch B	General Medicine	05-09-2025	05-09-2025	Emergency	Transferred	TRUE	TRUE
+1000	828	Branch B	General Medicine	30-03-2025	30-03-2025	Emergency	Recovered	FALSE	FALSE
